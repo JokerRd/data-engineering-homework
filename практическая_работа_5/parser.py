@@ -26,3 +26,9 @@ def parse_pkl_file(name_file: str):
     with open(name_file, 'rb') as file:
         data_from_pkl = pickle.load(file)
     return data_from_pkl
+
+
+def parse_json_file(name_file: str):
+    with open(name_file, 'r', encoding='utf-8') as file:
+        data_from_json = json.load(file)
+    return data_from_json

@@ -1,14 +1,19 @@
 package ru.dataengineeringhomework.nosqldatabaseproject.repository.impl;
 
+import com.mongodb.client.result.UpdateResult;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Repository;
+import ru.dataengineeringhomework.nosqldatabaseproject.model.InFilter;
+import ru.dataengineeringhomework.nosqldatabaseproject.model.RangeFilter;
 import ru.dataengineeringhomework.nosqldatabaseproject.model.SalaryData;
 import ru.dataengineeringhomework.nosqldatabaseproject.repository.SimpleSalaryDataRepository;
 import ru.dataengineeringhomework.nosqldatabaseproject.repository.SalarySpringDataRepository;
+
 import java.util.List;
 
 import static org.springframework.data.domain.PageRequest.of;
@@ -54,6 +59,27 @@ public class SimpleSalaryDataMongoRepository implements SimpleSalaryDataReposito
                         .orOperator(firstSalaryCriteria, secondSalaryCriteria)
         );
         return mongoTemplate.count(query, SalaryData.class);
+    }
+
+    @Override
+    public List<SalaryData> deleteByLessThanOrGreatThen(String nameField, Integer lessThen, Integer greatThen) {
+        var query = Query.query(
+                new Criteria().orOperator(
+                        Criteria.where(nameField).lt(lessThen),
+                        Criteria.where(nameField).gt(greatThen)
+                )
+        );
+        return mongoTemplate.findAllAndRemove(query, SalaryData.class);
+    }
+
+    @Override
+    public List<SalaryData> incrementByField(String name) {
+        var updateResult = mongoTemplate
+                .update(SalaryData.class)
+                .apply(new Update().inc(name, 1))
+                .all();
+
+        return mongoTemplate.findAll(SalaryData.class);
     }
 
 }

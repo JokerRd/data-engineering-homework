@@ -1,5 +1,9 @@
 package ru.dataengineeringhomework.nosqldatabaseproject.repository;
 
+import ru.dataengineeringhomework.nosqldatabaseproject.model.AggWithSortRequest;
+import ru.dataengineeringhomework.nosqldatabaseproject.model.InFilter;
+import ru.dataengineeringhomework.nosqldatabaseproject.model.RangeFilter;
+import ru.dataengineeringhomework.nosqldatabaseproject.model.SalaryData;
 import ru.dataengineeringhomework.nosqldatabaseproject.model.stat.AggData;
 import ru.dataengineeringhomework.nosqldatabaseproject.model.stat.AggDataByField;
 import ru.dataengineeringhomework.nosqldatabaseproject.model.stat.CountByField;
@@ -16,4 +20,17 @@ public interface StatSalaryDataRepository {
 
     int getMaxValueByMinField(String maxNameField, String minNameField);
 
+    int getMinValueByMaxField(String minNameField, String maxNameField);
+
+    List<AggDataByField> getStatWithGreatThenFilterBySalaryAndGroupByFieldAndSort(Integer salary,
+                                                                                  AggWithSortRequest aggWithSortRequest);
+
+    AggData getStatWithInFiltersAndRangeFilters(String aggNameField, List<InFilter> inFilters, List<RangeFilter> rangeFilters);
+
+    List<SalaryData> multiplyFieldByInFilters(String multiplyNameField, double multiplier, InFilter inFilter);
+
+    List<SalaryData> multiplyFieldByInFiltersAndRangeFilters(String multiplyNameField, double multiplier,
+                                                             List<InFilter> inFilter, List<RangeFilter> rangeFilters);
+
+    List<SalaryData> deleteByInFiltersAndRangeFilters(List<InFilter> inFilters, List<RangeFilter> rangeFilters);
 }
