@@ -142,15 +142,16 @@ def build_heatmap_chart(data: pd.DataFrame, name_file: str):
     plt.clf()
 
 
-def build_graphics(data: pd.DataFrame, name_file: str):
-    build_line_chart(data, 'v_score', name_file)
-    build_bar_chart(data, name_column='v_name', name_file=name_file)
-    build_box_chart(data, name_column_x='v_score', name_column_y='day_of_week', name_file=name_file)
-    build_pie_chart(data, name_column='day_of_week', name_file=name_file)
+def build_graphics(data: pd.DataFrame, name_file: str, parameters: model.ChartParameters):
+    build_line_chart(data, parameters.line_chart_name_column, name_file)
+    build_bar_chart(data, name_column=parameters.bar_chart_name_column, name_file=name_file)
+    build_box_chart(data, name_column_x=parameters.box_chart_x_name_column,
+                    name_column_y=parameters.box_chart_y_name_column, name_file=name_file)
+    build_pie_chart(data, name_column=parameters.pie_chart_name_column, name_file=name_file)
     build_heatmap_chart(data, name_file=name_file)
 
 
-def start(path_to_csv_file, select_opt_columns):
+def start(path_to_csv_file, select_opt_columns, parameters):
     # step 1
     basename, extension = os.path.splitext(path_to_csv_file)
     data = load_data(path_to_csv_file)
@@ -184,9 +185,14 @@ def start(path_to_csv_file, select_opt_columns):
 
     # step 9
     opt_data = load_data(path_opt_data)
-    build_graphics(opt_data, basename)
+    build_graphics(opt_data, basename, parameters)
 
 
 select_columns = ['number_of_game', 'day_of_week', 'v_name', 'v_score',
                   'v_league', 'h_name', 'h_score', 'h_league', 'forefeit', 'protest']
-start('[1]game_logs.csv', select_columns)
+start('[1]game_logs.csv', select_columns,
+      model.ChartParameters(line_chart_name_column='v_score',
+                            bar_chart_name_column='v_name',
+                            pie_chart_name_column='day_of_week',
+                            box_chart_x_name_column='v_score',
+                            box_chart_y_name_column='day_of_week'))

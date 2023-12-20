@@ -60,6 +60,15 @@ class DataAnalysis:
     columns: dict[str, ColumnAnalysis]
 
 
+@dataclass(frozen=True)
+class ChartParameters:
+    line_chart_name_column: str
+    bar_chart_name_column: str
+    box_chart_x_name_column: str
+    box_chart_y_name_column: str
+    pie_chart_name_column: str
+
+
 class DataAnalysisEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, MemoryUsage):
