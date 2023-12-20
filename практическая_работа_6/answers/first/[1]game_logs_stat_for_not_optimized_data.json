@@ -1,0 +1,1301 @@
+{
+    "comment": "Not optimized data",
+    "total": {
+        "disk": 136089742,
+        "ram": 901174531,
+        "disk_kb": 132900.14,
+        "ram_kb": 880053.25,
+        "disk_mb": 129.79,
+        "ram_mb": 859.43
+    },
+    "columns": {
+        "h_manager_name": {
+            "ram": 11833434,
+            "ram_fraction_of_total": 0.0131,
+            "type": "object",
+            "ram_kb": 11556.09,
+            "ram_mb": 11.29,
+            "ram_percent_of_total": "1.31% of total"
+        },
+        "v_manager_name": {
+            "ram": 11833086,
+            "ram_fraction_of_total": 0.0131,
+            "type": "object",
+            "ram_kb": 11555.75,
+            "ram_mb": 11.28,
+            "ram_percent_of_total": "1.31% of total"
+        },
+        "hp_umpire_name": {
+            "ram": 11813253,
+            "ram_fraction_of_total": 0.0131,
+            "type": "object",
+            "ram_kb": 11536.38,
+            "ram_mb": 11.27,
+            "ram_percent_of_total": "1.31% of total"
+        },
+        "1b_umpire_name": {
+            "ram": 11679090,
+            "ram_fraction_of_total": 0.013,
+            "type": "object",
+            "ram_kb": 11405.36,
+            "ram_mb": 11.14,
+            "ram_percent_of_total": "1.30% of total"
+        },
+        "v_starting_pitcher_name": {
+            "ram": 11670385,
+            "ram_fraction_of_total": 0.013,
+            "type": "object",
+            "ram_kb": 11396.86,
+            "ram_mb": 11.13,
+            "ram_percent_of_total": "1.30% of total"
+        },
+        "h_starting_pitcher_name": {
+            "ram": 11670073,
+            "ram_fraction_of_total": 0.0129,
+            "type": "object",
+            "ram_kb": 11396.56,
+            "ram_mb": 11.13,
+            "ram_percent_of_total": "1.29% of total"
+        },
+        "3b_umpire_name": {
+            "ram": 11479492,
+            "ram_fraction_of_total": 0.0127,
+            "type": "object",
+            "ram_kb": 11210.44,
+            "ram_mb": 10.95,
+            "ram_percent_of_total": "1.27% of total"
+        },
+        "2b_umpire_name": {
+            "ram": 11314205,
+            "ram_fraction_of_total": 0.0126,
+            "type": "object",
+            "ram_kb": 11049.03,
+            "ram_mb": 10.79,
+            "ram_percent_of_total": "1.26% of total"
+        },
+        "v_manager_id": {
+            "ram": 11173955,
+            "ram_fraction_of_total": 0.0124,
+            "type": "object",
+            "ram_kb": 10912.07,
+            "ram_mb": 10.66,
+            "ram_percent_of_total": "1.24% of total"
+        },
+        "h_manager_id": {
+            "ram": 11173955,
+            "ram_fraction_of_total": 0.0124,
+            "type": "object",
+            "ram_kb": 10912.07,
+            "ram_mb": 10.66,
+            "ram_percent_of_total": "1.24% of total"
+        },
+        "hp_umpire_id": {
+            "ram": 11173328,
+            "ram_fraction_of_total": 0.0124,
+            "type": "object",
+            "ram_kb": 10911.45,
+            "ram_mb": 10.66,
+            "ram_percent_of_total": "1.24% of total"
+        },
+        "v_starting_pitcher_id": {
+            "ram": 11172503,
+            "ram_fraction_of_total": 0.0124,
+            "type": "object",
+            "ram_kb": 10910.65,
+            "ram_mb": 10.65,
+            "ram_percent_of_total": "1.24% of total"
+        },
+        "h_starting_pitcher_id": {
+            "ram": 11172503,
+            "ram_fraction_of_total": 0.0124,
+            "type": "object",
+            "ram_kb": 10910.65,
+            "ram_mb": 10.65,
+            "ram_percent_of_total": "1.24% of total"
+        },
+        "lf_umpire_name": {
+            "ram": 10831036,
+            "ram_fraction_of_total": 0.012,
+            "type": "object",
+            "ram_kb": 10577.18,
+            "ram_mb": 10.33,
+            "ram_percent_of_total": "1.20% of total"
+        },
+        "rf_umpire_name": {
+            "ram": 10830038,
+            "ram_fraction_of_total": 0.012,
+            "type": "object",
+            "ram_kb": 10576.21,
+            "ram_mb": 10.33,
+            "ram_percent_of_total": "1.20% of total"
+        },
+        "v_player_1_name": {
+            "ram": 10723614,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10472.28,
+            "ram_mb": 10.23,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "h_player_1_name": {
+            "ram": 10723613,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10472.28,
+            "ram_mb": 10.23,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "v_player_7_name": {
+            "ram": 10714635,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10463.51,
+            "ram_mb": 10.22,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "h_player_7_name": {
+            "ram": 10714346,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10463.23,
+            "ram_mb": 10.22,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "v_player_8_name": {
+            "ram": 10711512,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10460.46,
+            "ram_mb": 10.22,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "h_player_8_name": {
+            "ram": 10711341,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10460.29,
+            "ram_mb": 10.22,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "h_player_2_name": {
+            "ram": 10711298,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10460.25,
+            "ram_mb": 10.22,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "v_player_2_name": {
+            "ram": 10710879,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10459.84,
+            "ram_mb": 10.21,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "h_player_3_name": {
+            "ram": 10705137,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10454.24,
+            "ram_mb": 10.21,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "v_player_3_name": {
+            "ram": 10705107,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10454.21,
+            "ram_mb": 10.21,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "h_player_4_name": {
+            "ram": 10704847,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10453.95,
+            "ram_mb": 10.21,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "v_player_4_name": {
+            "ram": 10704255,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10453.37,
+            "ram_mb": 10.21,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "h_player_6_name": {
+            "ram": 10702882,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10452.03,
+            "ram_mb": 10.21,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "v_player_6_name": {
+            "ram": 10702219,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10451.39,
+            "ram_mb": 10.21,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "v_player_9_name": {
+            "ram": 10701720,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10450.9,
+            "ram_mb": 10.21,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "h_player_9_name": {
+            "ram": 10701621,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10450.8,
+            "ram_mb": 10.21,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "v_player_5_name": {
+            "ram": 10695777,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10445.09,
+            "ram_mb": 10.2,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "h_player_5_name": {
+            "ram": 10694693,
+            "ram_fraction_of_total": 0.0119,
+            "type": "object",
+            "ram_kb": 10444.04,
+            "ram_mb": 10.2,
+            "ram_percent_of_total": "1.19% of total"
+        },
+        "losing_pitcher_name": {
+            "ram": 10673678,
+            "ram_fraction_of_total": 0.0118,
+            "type": "object",
+            "ram_kb": 10423.51,
+            "ram_mb": 10.18,
+            "ram_percent_of_total": "1.18% of total"
+        },
+        "winning_pitcher_name": {
+            "ram": 10672358,
+            "ram_fraction_of_total": 0.0118,
+            "type": "object",
+            "ram_kb": 10422.22,
+            "ram_mb": 10.18,
+            "ram_percent_of_total": "1.18% of total"
+        },
+        "park_id": {
+            "ram": 10658234,
+            "ram_fraction_of_total": 0.0118,
+            "type": "object",
+            "ram_kb": 10408.43,
+            "ram_mb": 10.16,
+            "ram_percent_of_total": "1.18% of total"
+        },
+        "h_line_score": {
+            "ram": 10535431,
+            "ram_fraction_of_total": 0.0117,
+            "type": "object",
+            "ram_kb": 10288.51,
+            "ram_mb": 10.05,
+            "ram_percent_of_total": "1.17% of total"
+        },
+        "v_line_score": {
+            "ram": 10506484,
+            "ram_fraction_of_total": 0.0117,
+            "type": "object",
+            "ram_kb": 10260.24,
+            "ram_mb": 10.02,
+            "ram_percent_of_total": "1.17% of total"
+        },
+        "winning_rbi_batter_id_name": {
+            "ram": 10503642,
+            "ram_fraction_of_total": 0.0117,
+            "type": "object",
+            "ram_kb": 10257.46,
+            "ram_mb": 10.02,
+            "ram_percent_of_total": "1.17% of total"
+        },
+        "1b_umpire_id": {
+            "ram": 10353344,
+            "ram_fraction_of_total": 0.0115,
+            "type": "object",
+            "ram_kb": 10110.69,
+            "ram_mb": 9.87,
+            "ram_percent_of_total": "1.15% of total"
+        },
+        "day_of_week": {
+            "ram": 10314420,
+            "ram_fraction_of_total": 0.0114,
+            "type": "object",
+            "ram_kb": 10072.68,
+            "ram_mb": 9.84,
+            "ram_percent_of_total": "1.14% of total"
+        },
+        "v_name": {
+            "ram": 10314420,
+            "ram_fraction_of_total": 0.0114,
+            "type": "object",
+            "ram_kb": 10072.68,
+            "ram_mb": 9.84,
+            "ram_percent_of_total": "1.14% of total"
+        },
+        "h_name": {
+            "ram": 10314420,
+            "ram_fraction_of_total": 0.0114,
+            "type": "object",
+            "ram_kb": 10072.68,
+            "ram_mb": 9.84,
+            "ram_percent_of_total": "1.14% of total"
+        },
+        "saving_pitcher_name": {
+            "ram": 10160470,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9922.33,
+            "ram_mb": 9.69,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "v_player_1_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "v_player_2_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "v_player_3_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "v_player_4_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "v_player_5_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "v_player_6_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "v_player_7_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "v_player_8_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "h_player_1_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "h_player_2_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "h_player_3_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "h_player_4_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "h_player_5_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "h_player_6_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "h_player_7_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "h_player_8_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "h_player_9_id": {
+            "ram": 10148678,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.82,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "v_player_9_id": {
+            "ram": 10148579,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9910.72,
+            "ram_mb": 9.68,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "v_league": {
+            "ram": 10142513,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9904.8,
+            "ram_mb": 9.67,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "h_league": {
+            "ram": 10142513,
+            "ram_fraction_of_total": 0.0113,
+            "type": "object",
+            "ram_kb": 9904.8,
+            "ram_mb": 9.67,
+            "ram_percent_of_total": "1.13% of total"
+        },
+        "winning_pitcher_id": {
+            "ram": 10128581,
+            "ram_fraction_of_total": 0.0112,
+            "type": "object",
+            "ram_kb": 9891.19,
+            "ram_mb": 9.66,
+            "ram_percent_of_total": "1.12% of total"
+        },
+        "losing_pitcher_id": {
+            "ram": 10128581,
+            "ram_fraction_of_total": 0.0112,
+            "type": "object",
+            "ram_kb": 9891.19,
+            "ram_mb": 9.66,
+            "ram_percent_of_total": "1.12% of total"
+        },
+        "3b_umpire_id": {
+            "ram": 9352883,
+            "ram_fraction_of_total": 0.0104,
+            "type": "object",
+            "ram_kb": 9133.67,
+            "ram_mb": 8.92,
+            "ram_percent_of_total": "1.04% of total"
+        },
+        "acquisition_info": {
+            "ram": 9162890,
+            "ram_fraction_of_total": 0.0102,
+            "type": "object",
+            "ram_kb": 8948.13,
+            "ram_mb": 8.74,
+            "ram_percent_of_total": "1.02% of total"
+        },
+        "day_night": {
+            "ram": 9144924,
+            "ram_fraction_of_total": 0.0101,
+            "type": "object",
+            "ram_kb": 8930.59,
+            "ram_mb": 8.72,
+            "ram_percent_of_total": "1.01% of total"
+        },
+        "winning_rbi_batter_id": {
+            "ram": 8989091,
+            "ram_fraction_of_total": 0.01,
+            "type": "object",
+            "ram_kb": 8778.41,
+            "ram_mb": 8.57,
+            "ram_percent_of_total": "1.00% of total"
+        },
+        "2b_umpire_id": {
+            "ram": 8422844,
+            "ram_fraction_of_total": 0.0093,
+            "type": "object",
+            "ram_kb": 8225.43,
+            "ram_mb": 8.03,
+            "ram_percent_of_total": "0.93% of total"
+        },
+        "saving_pitcher_id": {
+            "ram": 7085618,
+            "ram_fraction_of_total": 0.0079,
+            "type": "object",
+            "ram_kb": 6919.55,
+            "ram_mb": 6.76,
+            "ram_percent_of_total": "0.79% of total"
+        },
+        "additional_info": {
+            "ram": 5559520,
+            "ram_fraction_of_total": 0.0062,
+            "type": "object",
+            "ram_kb": 5429.22,
+            "ram_mb": 5.3,
+            "ram_percent_of_total": "0.62% of total"
+        },
+        "lf_umpire_id": {
+            "ram": 5507723,
+            "ram_fraction_of_total": 0.0061,
+            "type": "object",
+            "ram_kb": 5378.64,
+            "ram_mb": 5.25,
+            "ram_percent_of_total": "0.61% of total"
+        },
+        "completion": {
+            "ram": 5505945,
+            "ram_fraction_of_total": 0.0061,
+            "type": "object",
+            "ram_kb": 5376.9,
+            "ram_mb": 5.25,
+            "ram_percent_of_total": "0.61% of total"
+        },
+        "protest": {
+            "ram": 5505704,
+            "ram_fraction_of_total": 0.0061,
+            "type": "object",
+            "ram_kb": 5376.66,
+            "ram_mb": 5.25,
+            "ram_percent_of_total": "0.61% of total"
+        },
+        "forefeit": {
+            "ram": 5504794,
+            "ram_fraction_of_total": 0.0061,
+            "type": "object",
+            "ram_kb": 5375.78,
+            "ram_mb": 5.25,
+            "ram_percent_of_total": "0.61% of total"
+        },
+        "rf_umpire_id": {
+            "ram": 5501321,
+            "ram_fraction_of_total": 0.0061,
+            "type": "object",
+            "ram_kb": 5372.38,
+            "ram_mb": 5.25,
+            "ram_percent_of_total": "0.61% of total"
+        },
+        "date": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "int64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "number_of_game": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "int64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_game_number": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "int64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_game_number": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "int64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_score": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "int64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_score": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "int64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "length_outs": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "attendance": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "length_minutes": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_at_bats": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_hits": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_doubles": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_triples": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_homeruns": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_rbi": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_sacrifice_hits": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_sacrifice_flies": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_hit_by_pitch": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_walks": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_intentional walks": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_strikeouts": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_stolen_bases": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_caught_stealing": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_grounded_into_double": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_first_catcher_interference": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_left_on_base": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_pitchers_used": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_individual_earned_runs": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_team_earned_runs": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_wild_pitches": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_balks": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_putouts": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_assists": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_errors": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_passed_balls": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_double_plays": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_triple_plays": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_at_bats": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_hits": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_doubles": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_triples": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_homeruns": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_rbi": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_sacrifice_hits": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_sacrifice_flies": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_hit_by_pitch": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_walks": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_intentional walks": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_strikeouts": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_stolen_bases": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_caught_stealing": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_grounded_into_double": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_first_catcher_interference": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_left_on_base": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_pitchers_used": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_individual_earned_runs": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_team_earned_runs": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_wild_pitches": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_balks": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_putouts": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_assists": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_errors": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_passed_balls": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_double_plays": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_triple_plays": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_player_1_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_player_2_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_player_3_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_player_4_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_player_5_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_player_6_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_player_7_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_player_8_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "v_player_9_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_player_1_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_player_2_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_player_3_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_player_4_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_player_5_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_player_6_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_player_7_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_player_8_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "h_player_9_def_pos": {
+            "ram": 1375256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "float64",
+            "ram_kb": 1343.02,
+            "ram_mb": 1.31,
+            "ram_percent_of_total": "0.15% of total"
+        }
+    }
+}
