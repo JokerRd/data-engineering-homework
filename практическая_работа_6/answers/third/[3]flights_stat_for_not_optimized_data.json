@@ -1,0 +1,261 @@
+{
+    "comment": "Not optimized data",
+    "total": {
+        "disk": 592406591,
+        "ram": 96519133,
+        "disk_kb": 578522.06,
+        "ram_kb": 94256.97,
+        "disk_mb": 564.96,
+        "ram_mb": 92.05
+    },
+    "columns": {
+        "TAIL_NUMBER": {
+            "ram": 12587131,
+            "ram_fraction_of_total": 0.1304,
+            "type": "object",
+            "ram_kb": 12292.12,
+            "ram_mb": 12.0,
+            "ram_percent_of_total": "13.04% of total"
+        },
+        "ORIGIN_AIRPORT": {
+            "ram": 12000000,
+            "ram_fraction_of_total": 0.1243,
+            "type": "object",
+            "ram_kb": 11718.75,
+            "ram_mb": 11.44,
+            "ram_percent_of_total": "12.43% of total"
+        },
+        "DESTINATION_AIRPORT": {
+            "ram": 12000000,
+            "ram_fraction_of_total": 0.1243,
+            "type": "object",
+            "ram_kb": 11718.75,
+            "ram_mb": 11.44,
+            "ram_percent_of_total": "12.43% of total"
+        },
+        "AIRLINE": {
+            "ram": 11800000,
+            "ram_fraction_of_total": 0.1223,
+            "type": "object",
+            "ram_kb": 11523.44,
+            "ram_mb": 11.25,
+            "ram_percent_of_total": "12.23% of total"
+        },
+        "CANCELLATION_REASON": {
+            "ram": 6532002,
+            "ram_fraction_of_total": 0.0677,
+            "type": "object",
+            "ram_kb": 6378.91,
+            "ram_mb": 6.23,
+            "ram_percent_of_total": "6.77% of total"
+        },
+        "YEAR": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "MONTH": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "DAY": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "DAY_OF_WEEK": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "FLIGHT_NUMBER": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "SCHEDULED_DEPARTURE": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "DEPARTURE_TIME": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "DEPARTURE_DELAY": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "TAXI_OUT": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "WHEELS_OFF": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "SCHEDULED_TIME": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "ELAPSED_TIME": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "AIR_TIME": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "DISTANCE": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "WHEELS_ON": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "TAXI_IN": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "SCHEDULED_ARRIVAL": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "ARRIVAL_TIME": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "ARRIVAL_DELAY": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "DIVERTED": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "CANCELLED": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "AIR_SYSTEM_DELAY": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "SECURITY_DELAY": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "AIRLINE_DELAY": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "LATE_AIRCRAFT_DELAY": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        },
+        "WEATHER_DELAY": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0166,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.66% of total"
+        }
+    }
+}

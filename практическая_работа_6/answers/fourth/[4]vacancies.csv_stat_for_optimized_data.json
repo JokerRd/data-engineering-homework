@@ -1,0 +1,461 @@
+{
+    "comment": "Optimized data",
+    "total": {
+        "disk": 557520269,
+        "ram": 1701848829,
+        "disk_kb": 544453.39,
+        "ram_kb": 1661961.75,
+        "disk_mb": 531.69,
+        "ram_mb": 1623.01
+    },
+    "columns": {
+        "description": {
+            "ram": 1394967144,
+            "ram_fraction_of_total": 0.8197,
+            "type": "object",
+            "ram_kb": 1362272.6,
+            "ram_mb": 1330.34,
+            "ram_percent_of_total": "81.97% of total"
+        },
+        "terms_found": {
+            "ram": 68391945,
+            "ram_fraction_of_total": 0.0402,
+            "type": "object",
+            "ram_kb": 66789.01,
+            "ram_mb": 65.22,
+            "ram_percent_of_total": "4.02% of total"
+        },
+        "specializations": {
+            "ram": 57068465,
+            "ram_fraction_of_total": 0.0335,
+            "type": "category",
+            "ram_kb": 55730.92,
+            "ram_mb": 54.42,
+            "ram_percent_of_total": "3.35% of total"
+        },
+        "key_skills": {
+            "ram": 38009740,
+            "ram_fraction_of_total": 0.0223,
+            "type": "object",
+            "ram_kb": 37118.89,
+            "ram_mb": 36.25,
+            "ram_percent_of_total": "2.23% of total"
+        },
+        "apply_alternate_url": {
+            "ram": 23200000,
+            "ram_fraction_of_total": 0.0136,
+            "type": "object",
+            "ram_kb": 22656.25,
+            "ram_mb": 22.13,
+            "ram_percent_of_total": "1.36% of total"
+        },
+        "name": {
+            "ram": 19373954,
+            "ram_fraction_of_total": 0.0114,
+            "type": "category",
+            "ram_kb": 18919.88,
+            "ram_mb": 18.48,
+            "ram_percent_of_total": "1.14% of total"
+        },
+        "alternate_url": {
+            "ram": 17400000,
+            "ram_fraction_of_total": 0.0102,
+            "type": "object",
+            "ram_kb": 16992.19,
+            "ram_mb": 16.59,
+            "ram_percent_of_total": "1.02% of total"
+        },
+        "created_at": {
+            "ram": 16200000,
+            "ram_fraction_of_total": 0.0095,
+            "type": "object",
+            "ram_kb": 15820.31,
+            "ram_mb": 15.45,
+            "ram_percent_of_total": "0.95% of total"
+        },
+        "published_at": {
+            "ram": 16200000,
+            "ram_fraction_of_total": 0.0095,
+            "type": "object",
+            "ram_kb": 15820.31,
+            "ram_mb": 15.45,
+            "ram_percent_of_total": "0.95% of total"
+        },
+        "contacts": {
+            "ram": 7104677,
+            "ram_fraction_of_total": 0.0042,
+            "type": "object",
+            "ram_kb": 6938.16,
+            "ram_mb": 6.78,
+            "ram_percent_of_total": "0.42% of total"
+        },
+        "employer_name": {
+            "ram": 6755956,
+            "ram_fraction_of_total": 0.004,
+            "type": "category",
+            "ram_kb": 6597.61,
+            "ram_mb": 6.44,
+            "ram_percent_of_total": "0.40% of total"
+        },
+        "code": {
+            "ram": 6494937,
+            "ram_fraction_of_total": 0.0038,
+            "type": "object",
+            "ram_kb": 6342.71,
+            "ram_mb": 6.19,
+            "ram_percent_of_total": "0.38% of total"
+        },
+        "employer_vacancies_url": {
+            "ram": 5651992,
+            "ram_fraction_of_total": 0.0033,
+            "type": "category",
+            "ram_kb": 5519.52,
+            "ram_mb": 5.39,
+            "ram_percent_of_total": "0.33% of total"
+        },
+        "employer_alternate_url": {
+            "ram": 5029418,
+            "ram_fraction_of_total": 0.003,
+            "type": "category",
+            "ram_kb": 4911.54,
+            "ram_mb": 4.8,
+            "ram_percent_of_total": "0.30% of total"
+        },
+        "employer_industries": {
+            "ram": 3065995,
+            "ram_fraction_of_total": 0.0018,
+            "type": "category",
+            "ram_kb": 2994.14,
+            "ram_mb": 2.92,
+            "ram_percent_of_total": "0.18% of total"
+        },
+        "address_street": {
+            "ram": 1648571,
+            "ram_fraction_of_total": 0.001,
+            "type": "category",
+            "ram_kb": 1609.93,
+            "ram_mb": 1.57,
+            "ram_percent_of_total": "0.10% of total"
+        },
+        "address_building": {
+            "ram": 957818,
+            "ram_fraction_of_total": 0.0006,
+            "type": "category",
+            "ram_kb": 935.37,
+            "ram_mb": 0.91,
+            "ram_percent_of_total": "0.06% of total"
+        },
+        "id": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0005,
+            "type": "uint32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.05% of total"
+        },
+        "employer_id": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0005,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.05% of total"
+        },
+        "salary_from": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0005,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.05% of total"
+        },
+        "salary_to": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0005,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.05% of total"
+        },
+        "address_description": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0005,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.05% of total"
+        },
+        "address_lat": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0005,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.05% of total"
+        },
+        "address_lng": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0005,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.05% of total"
+        },
+        "area_name": {
+            "ram": 723232,
+            "ram_fraction_of_total": 0.0004,
+            "type": "category",
+            "ram_kb": 706.28,
+            "ram_mb": 0.69,
+            "ram_percent_of_total": "0.04% of total"
+        },
+        "area_url": {
+            "ram": 635294,
+            "ram_fraction_of_total": 0.0004,
+            "type": "category",
+            "ram_kb": 620.4,
+            "ram_mb": 0.61,
+            "ram_percent_of_total": "0.04% of total"
+        },
+        "address_city": {
+            "ram": 599012,
+            "ram_fraction_of_total": 0.0004,
+            "type": "category",
+            "ram_kb": 584.97,
+            "ram_mb": 0.57,
+            "ram_percent_of_total": "0.04% of total"
+        },
+        "prof_classes_found": {
+            "ram": 468074,
+            "ram_fraction_of_total": 0.0003,
+            "type": "category",
+            "ram_kb": 457.1,
+            "ram_mb": 0.45,
+            "ram_percent_of_total": "0.03% of total"
+        },
+        "department_name": {
+            "ram": 447116,
+            "ram_fraction_of_total": 0.0003,
+            "type": "category",
+            "ram_kb": 436.64,
+            "ram_mb": 0.43,
+            "ram_percent_of_total": "0.03% of total"
+        },
+        "department_id": {
+            "ram": 429946,
+            "ram_fraction_of_total": 0.0003,
+            "type": "category",
+            "ram_kb": 419.87,
+            "ram_mb": 0.41,
+            "ram_percent_of_total": "0.03% of total"
+        },
+        "area_id": {
+            "ram": 400000,
+            "ram_fraction_of_total": 0.0002,
+            "type": "uint16",
+            "ram_kb": 390.62,
+            "ram_mb": 0.38,
+            "ram_percent_of_total": "0.02% of total"
+        },
+        "response_url": {
+            "ram": 212316,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 207.34,
+            "ram_mb": 0.2,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "insider_interview": {
+            "ram": 205973,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 201.15,
+            "ram_mb": 0.2,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "salary_currency": {
+            "ram": 200900,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 196.19,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "employment_name": {
+            "ram": 200876,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 196.17,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "schedule_name": {
+            "ram": 200854,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 196.15,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "experience_name": {
+            "ram": 200691,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 195.99,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "billing_type_name": {
+            "ram": 200655,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 195.95,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "schedule_id": {
+            "ram": 200494,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 195.79,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "employment_id": {
+            "ram": 200490,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 195.79,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "type_name": {
+            "ram": 200461,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 195.76,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "experience_id": {
+            "ram": 200445,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 195.75,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "billing_type_id": {
+            "ram": 200432,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 195.73,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "driver_license_types": {
+            "ram": 200412,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 195.71,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "type_id": {
+            "ram": 200298,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 195.6,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "employer_trusted": {
+            "ram": 200082,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 195.39,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "test_required": {
+            "ram": 200082,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 195.39,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "salary_gross": {
+            "ram": 200082,
+            "ram_fraction_of_total": 0.0001,
+            "type": "category",
+            "ram_kb": 195.39,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "accept_handicapped": {
+            "ram": 200000,
+            "ram_fraction_of_total": 0.0001,
+            "type": "bool",
+            "ram_kb": 195.31,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "accept_kids": {
+            "ram": 200000,
+            "ram_fraction_of_total": 0.0001,
+            "type": "bool",
+            "ram_kb": 195.31,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "allow_messages": {
+            "ram": 200000,
+            "ram_fraction_of_total": 0.0001,
+            "type": "bool",
+            "ram_kb": 195.31,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "premium": {
+            "ram": 200000,
+            "ram_fraction_of_total": 0.0001,
+            "type": "bool",
+            "ram_kb": 195.31,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "accept_incomplete_resumes": {
+            "ram": 200000,
+            "ram_fraction_of_total": 0.0001,
+            "type": "bool",
+            "ram_kb": 195.31,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "response_letter_required": {
+            "ram": 200000,
+            "ram_fraction_of_total": 0.0001,
+            "type": "bool",
+            "ram_kb": 195.31,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "has_test": {
+            "ram": 200000,
+            "ram_fraction_of_total": 0.0001,
+            "type": "bool",
+            "ram_kb": 195.31,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        },
+        "archived": {
+            "ram": 200000,
+            "ram_fraction_of_total": 0.0001,
+            "type": "bool",
+            "ram_kb": 195.31,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.01% of total"
+        }
+    }
+}

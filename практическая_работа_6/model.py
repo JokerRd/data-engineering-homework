@@ -63,6 +63,7 @@ class DataAnalysis:
 @dataclass(frozen=True)
 class ChartParameters:
     line_chart_name_column: str
+    line_chart_group_name_column: str
     bar_chart_name_column: str
     box_chart_x_name_column: str
     box_chart_y_name_column: str

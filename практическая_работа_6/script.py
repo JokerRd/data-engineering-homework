@@ -6,7 +6,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-def load_data(path_to_csv_file: str) -> pd.DataFrame:
+def load_data(path_to_csv_file: str, threshold_mb: int = 250, chunksize: int = 200000) -> pd.DataFrame:
+    file_size = os.path.getsize(path_to_csv_file)
+    file_size_in_mb = (file_size / 1024) / 1024
+    if file_size_in_mb > threshold_mb:
+        for chunk in pd.read_csv(path_to_csv_file, chunksize=chunksize):
+            return chunk
     return pd.read_csv(path_to_csv_file)
 
 
@@ -109,22 +114,29 @@ def load_and_save_optimize_data(path_to_csv_file: str, path_save_file: str,
         header = False
 
 
-def build_line_chart(data: pd.DataFrame, name_column: str, name_file: str):
-    plt.figure(figsize=(30, 5))
-    data[name_column].plot(legend=True)
+def build_line_chart(data: pd.DataFrame, group_name_column: str, name_column: str, name_file: str):
+    plt.figure(figsize=(20, 7))
+    data.groupby(group_name_column)[name_column].mean().plot(legend=True)
     plt.savefig(f'{name_file}_line_chart.png')
     plt.clf()
 
 
 def build_bar_chart(data: pd.DataFrame, name_column: str, name_file: str):
-    plt.figure(figsize=(30, 5))
-    data[name_column].value_counts().plot(kind='bar', title=name_column, legend=True)
+    plt.figure(figsize=(20, 7))
+    (data[name_column].value_counts()
+     .sort_values(ascending=False)
+     .head(20)
+     .plot(kind='bar', title='Most 20 high count value', legend=True))
     plt.savefig(f'{name_file}_bar_chart.png')
     plt.clf()
 
 
 def build_pie_chart(data: pd.DataFrame, name_column: str, name_file: str):
-    data[name_column].value_counts().plot(kind='pie', title=name_column)
+    plt.figure(figsize=(10, 10))
+    (data[name_column].value_counts()
+     .sort_values(ascending=False)
+     .head(10)
+     .plot(kind='pie', title=name_column, autopct='%.2f%%'))
     plt.savefig(f'{name_file}_pie_chart.png')
     plt.clf()
 
@@ -137,13 +149,13 @@ def build_box_chart(data: pd.DataFrame, name_column_x: str, name_column_y: str, 
 
 def build_heatmap_chart(data: pd.DataFrame, name_file: str):
     plt.figure(figsize=(10, 10))
-    sns.heatmap(data.corr(numeric_only= True))
+    sns.heatmap(data.corr(numeric_only=True))
     plt.savefig(f'{name_file}_heatmap.png')
     plt.clf()
 
 
 def build_graphics(data: pd.DataFrame, name_file: str, parameters: model.ChartParameters):
-    build_line_chart(data, parameters.line_chart_name_column, name_file)
+    build_line_chart(data, parameters.line_chart_group_name_column, parameters.line_chart_name_column, name_file)
     build_bar_chart(data, name_column=parameters.bar_chart_name_column, name_file=name_file)
     build_box_chart(data, name_column_x=parameters.box_chart_x_name_column,
                     name_column_y=parameters.box_chart_y_name_column, name_file=name_file)
@@ -166,7 +178,7 @@ def start(path_to_csv_file, select_opt_columns, parameters):
     # step 4
     transformed_data = transform_obj_to_category(data)
 
-    # step 5
+    # step 5+
     downcast_int_data = downcast_int(transformed_data)
 
     # step 6
@@ -188,11 +200,73 @@ def start(path_to_csv_file, select_opt_columns, parameters):
     build_graphics(opt_data, basename, parameters)
 
 
-select_columns = ['number_of_game', 'day_of_week', 'v_name', 'v_score',
-                  'v_league', 'h_name', 'h_score', 'h_league', 'forefeit', 'protest']
-start('[1]game_logs.csv', select_columns,
-      model.ChartParameters(line_chart_name_column='v_score',
-                            bar_chart_name_column='v_name',
-                            pie_chart_name_column='day_of_week',
-                            box_chart_x_name_column='v_score',
-                            box_chart_y_name_column='day_of_week'))
+# select_columns = ['number_of_game', 'day_of_week', 'v_name', 'v_score',
+#                   'v_league', 'h_name', 'h_score', 'h_league', 'length_minutes', 'protest']
+# start('[1]game_logs.csv', select_columns,
+#       model.ChartParameters(line_chart_name_column='length_minutes',
+#                             line_chart_group_name_column='day_of_week',
+#                             bar_chart_name_column='v_name',
+#                             pie_chart_name_column='day_of_week',
+#                             box_chart_x_name_column='v_score',
+#                             box_chart_y_name_column='day_of_week'))
+
+
+# second_select_columns = ['msrp', 'askPrice', 'isNew', 'color',
+#                          'brandName', 'modelName', 'stockNum', 'firstSeen', 'lastSeen',
+#                          'vf_TransmissionStyle']
+# start("[2]automotive.csv.zip", second_select_columns,
+#       model.ChartParameters(line_chart_name_column='askPrice',
+#                             line_chart_group_name_column='brandName',
+#                             bar_chart_name_column='modelName',
+#                             pie_chart_name_column='brandName',
+#                             box_chart_x_name_column='askPrice',
+#                             box_chart_y_name_column='vf_TransmissionStyle'))
+
+# third_select_columns = ['YEAR', 'MONTH', 'DAY', 'DAY_OF_WEEK',
+#                         'AIRLINE', 'DESTINATION_AIRPORT', 'SCHEDULED_DEPARTURE', 'DEPARTURE_TIME', 'AIR_TIME',
+#                         'DISTANCE']
+#
+# start('[3]flights.csv', third_select_columns,
+#       model.ChartParameters(line_chart_name_column='DISTANCE',
+#                             line_chart_group_name_column='AIRLINE',
+#                             bar_chart_name_column='AIRLINE',
+#                             pie_chart_name_column='AIRLINE',
+#                             box_chart_x_name_column='YEAR',
+#                             box_chart_y_name_column='DAY_OF_WEEK'))
+
+# fourth_select_columns = ['schedule_name', 'employer_name', 'type_name', 'salary_from',
+#                         'salary_to', 'salary_currency', 'area_name', 'employment_name', 'name',
+#                         'employer_trusted']
+#
+# start('[4]vacancies.csv.gz', fourth_select_columns,
+#       model.ChartParameters(line_chart_name_column='salary_to',
+#                             line_chart_group_name_column='type_name',
+#                             bar_chart_name_column='area_name',
+#                             pie_chart_name_column='area_name',
+#                             box_chart_x_name_column='employment_name',
+#                             box_chart_y_name_column='salary_to'))
+
+
+# fifth_select_columns = ['name', 'H', 'diameter', 'albedo',
+#                         'class', 'rms', 'prefix', 'pha', 'diameter_sigma',
+#                         'epoch']
+#
+# start('[5]asteroid.zip', fifth_select_columns,
+#       model.ChartParameters(line_chart_name_column='diameter',
+#                             line_chart_group_name_column='class',
+#                             bar_chart_name_column='class',
+#                             pie_chart_name_column='class',
+#                             box_chart_x_name_column='class',
+#                             box_chart_y_name_column='albedo'))
+
+sixth_select_columns = ['Brew_Date', 'Beer_Style', 'SKU', 'Fermentation_Time',
+                        'Temperature', 'Alcohol_Content', 'Color', 'Total_Sales', 'Quality_Score',
+                        'Brewhouse_Efficiency']
+
+start('[6]Brewery_Operations.zip', sixth_select_columns,
+      model.ChartParameters(line_chart_name_column='Total_Sales',
+                            line_chart_group_name_column='Beer_Style',
+                            bar_chart_name_column='Beer_Style',
+                            pie_chart_name_column='Beer_Style',
+                            box_chart_x_name_column='SKU',
+                            box_chart_y_name_column='Alcohol_Content'))

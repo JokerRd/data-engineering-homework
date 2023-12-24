@@ -1,0 +1,373 @@
+{
+    "comment": "Optimized data",
+    "total": {
+        "disk": 191144133,
+        "ram": 398636358,
+        "disk_kb": 186664.19,
+        "ram_kb": 389293.32,
+        "disk_mb": 182.29,
+        "ram_mb": 380.17
+    },
+    "columns": {
+        "full_name": {
+            "ram": 72322137,
+            "ram_fraction_of_total": 0.1814,
+            "type": "object",
+            "ram_kb": 70627.09,
+            "ram_mb": 68.97,
+            "ram_percent_of_total": "18.14% of total"
+        },
+        "id": {
+            "ram": 62304060,
+            "ram_fraction_of_total": 0.1563,
+            "type": "object",
+            "ram_kb": 60843.81,
+            "ram_mb": 59.42,
+            "ram_percent_of_total": "15.63% of total"
+        },
+        "pdes": {
+            "ram": 47161421,
+            "ram_fraction_of_total": 0.1183,
+            "type": "object",
+            "ram_kb": 46056.08,
+            "ram_mb": 44.98,
+            "ram_percent_of_total": "11.83% of total"
+        },
+        "name": {
+            "ram": 31412105,
+            "ram_fraction_of_total": 0.0788,
+            "type": "object",
+            "ram_kb": 30675.88,
+            "ram_mb": 29.96,
+            "ram_percent_of_total": "7.88% of total"
+        },
+        "epoch_cal": {
+            "ram": 7668192,
+            "ram_fraction_of_total": 0.0192,
+            "type": "float64",
+            "ram_kb": 7488.47,
+            "ram_mb": 7.31,
+            "ram_percent_of_total": "1.92% of total"
+        },
+        "a": {
+            "ram": 7668192,
+            "ram_fraction_of_total": 0.0192,
+            "type": "float64",
+            "ram_kb": 7488.47,
+            "ram_mb": 7.31,
+            "ram_percent_of_total": "1.92% of total"
+        },
+        "ad": {
+            "ram": 7668192,
+            "ram_fraction_of_total": 0.0192,
+            "type": "float64",
+            "ram_kb": 7488.47,
+            "ram_mb": 7.31,
+            "ram_percent_of_total": "1.92% of total"
+        },
+        "tp": {
+            "ram": 7668192,
+            "ram_fraction_of_total": 0.0192,
+            "type": "float64",
+            "ram_kb": 7488.47,
+            "ram_mb": 7.31,
+            "ram_percent_of_total": "1.92% of total"
+        },
+        "tp_cal": {
+            "ram": 7668192,
+            "ram_fraction_of_total": 0.0192,
+            "type": "float64",
+            "ram_kb": 7488.47,
+            "ram_mb": 7.31,
+            "ram_percent_of_total": "1.92% of total"
+        },
+        "per": {
+            "ram": 7668192,
+            "ram_fraction_of_total": 0.0192,
+            "type": "float64",
+            "ram_kb": 7488.47,
+            "ram_mb": 7.31,
+            "ram_percent_of_total": "1.92% of total"
+        },
+        "per_y": {
+            "ram": 7668192,
+            "ram_fraction_of_total": 0.0192,
+            "type": "float64",
+            "ram_kb": 7488.47,
+            "ram_mb": 7.31,
+            "ram_percent_of_total": "1.92% of total"
+        },
+        "moid_ld": {
+            "ram": 7668192,
+            "ram_fraction_of_total": 0.0192,
+            "type": "float64",
+            "ram_kb": 7488.47,
+            "ram_mb": 7.31,
+            "ram_percent_of_total": "1.92% of total"
+        },
+        "sigma_w": {
+            "ram": 7668192,
+            "ram_fraction_of_total": 0.0192,
+            "type": "float64",
+            "ram_kb": 7488.47,
+            "ram_mb": 7.31,
+            "ram_percent_of_total": "1.92% of total"
+        },
+        "sigma_ma": {
+            "ram": 7668192,
+            "ram_fraction_of_total": 0.0192,
+            "type": "float64",
+            "ram_kb": 7488.47,
+            "ram_mb": 7.31,
+            "ram_percent_of_total": "1.92% of total"
+        },
+        "sigma_tp": {
+            "ram": 7668192,
+            "ram_fraction_of_total": 0.0192,
+            "type": "float64",
+            "ram_kb": 7488.47,
+            "ram_mb": 7.31,
+            "ram_percent_of_total": "1.92% of total"
+        },
+        "sigma_per": {
+            "ram": 7668192,
+            "ram_fraction_of_total": 0.0192,
+            "type": "float64",
+            "ram_kb": 7488.47,
+            "ram_mb": 7.31,
+            "ram_percent_of_total": "1.92% of total"
+        },
+        "spkid": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "uint32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "H": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "diameter": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "albedo": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "diameter_sigma": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "epoch": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "e": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "q": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "i": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "om": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "w": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "ma": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "n": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "moid": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "sigma_e": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "sigma_a": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "sigma_q": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "sigma_i": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "sigma_om": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "sigma_ad": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "sigma_n": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "rms": {
+            "ram": 3834096,
+            "ram_fraction_of_total": 0.0096,
+            "type": "float32",
+            "ram_kb": 3744.23,
+            "ram_mb": 3.66,
+            "ram_percent_of_total": "0.96% of total"
+        },
+        "orbit_id": {
+            "ram": 2356431,
+            "ram_fraction_of_total": 0.0059,
+            "type": "category",
+            "ram_kb": 2301.2,
+            "ram_mb": 2.25,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "epoch_mjd": {
+            "ram": 1917048,
+            "ram_fraction_of_total": 0.0048,
+            "type": "uint16",
+            "ram_kb": 1872.12,
+            "ram_mb": 1.83,
+            "ram_percent_of_total": "0.48% of total"
+        },
+        "class": {
+            "ram": 959860,
+            "ram_fraction_of_total": 0.0024,
+            "type": "category",
+            "ram_kb": 937.36,
+            "ram_mb": 0.92,
+            "ram_percent_of_total": "0.24% of total"
+        },
+        "neo": {
+            "ram": 958748,
+            "ram_fraction_of_total": 0.0024,
+            "type": "category",
+            "ram_kb": 936.28,
+            "ram_mb": 0.91,
+            "ram_percent_of_total": "0.24% of total"
+        },
+        "pha": {
+            "ram": 958748,
+            "ram_fraction_of_total": 0.0024,
+            "type": "category",
+            "ram_kb": 936.28,
+            "ram_mb": 0.91,
+            "ram_percent_of_total": "0.24% of total"
+        },
+        "equinox": {
+            "ram": 958694,
+            "ram_fraction_of_total": 0.0024,
+            "type": "category",
+            "ram_kb": 936.22,
+            "ram_mb": 0.91,
+            "ram_percent_of_total": "0.24% of total"
+        },
+        "prefix": {
+            "ram": 958690,
+            "ram_fraction_of_total": 0.0024,
+            "type": "category",
+            "ram_kb": 936.22,
+            "ram_mb": 0.91,
+            "ram_percent_of_total": "0.24% of total"
+        }
+    }
+}

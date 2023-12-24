@@ -1,0 +1,1261 @@
+{
+    "comment": "Optimized data",
+    "total": {
+        "disk": 865567439,
+        "ram": 134531446,
+        "disk_kb": 845280.7,
+        "ram_kb": 131378.37,
+        "disk_mb": 825.47,
+        "ram_mb": 128.3
+    },
+    "columns": {
+        "vin": {
+            "ram": 24200000,
+            "ram_fraction_of_total": 0.1799,
+            "type": "object",
+            "ram_kb": 23632.81,
+            "ram_mb": 23.08,
+            "ram_percent_of_total": "17.99% of total"
+        },
+        "vf_VIN": {
+            "ram": 24200000,
+            "ram_fraction_of_total": 0.1799,
+            "type": "object",
+            "ram_kb": 23632.81,
+            "ram_mb": 23.08,
+            "ram_percent_of_total": "17.99% of total"
+        },
+        "stockNum": {
+            "ram": 10074424,
+            "ram_fraction_of_total": 0.0749,
+            "type": "object",
+            "ram_kb": 9838.3,
+            "ram_mb": 9.61,
+            "ram_percent_of_total": "7.49% of total"
+        },
+        "vf_ChargerLevel": {
+            "ram": 6400098,
+            "ram_fraction_of_total": 0.0476,
+            "type": "object",
+            "ram_kb": 6250.1,
+            "ram_mb": 6.1,
+            "ram_percent_of_total": "4.76% of total"
+        },
+        "color": {
+            "ram": 818615,
+            "ram_fraction_of_total": 0.0061,
+            "type": "category",
+            "ram_kb": 799.43,
+            "ram_mb": 0.78,
+            "ram_percent_of_total": "0.61% of total"
+        },
+        "msrp": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "uint32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "askPrice": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "uint32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "mileage": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "uint32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_Axles": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_BasePrice": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_BatteryA": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_BatteryA_to": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_BatteryCells": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_BatteryKWh": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_BatteryKWh_to": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_BatteryModules": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_BatteryPacks": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_BatteryV": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_BatteryV_to": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_BedLengthIN": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_BusLength": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_CashForClunkers": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_ChargerPowerKW": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_CurbWeightLB": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_DisplacementCC": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_DisplacementCI": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_DisplacementL": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_Doors": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_EngineCycles": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_EngineCylinders": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_EngineHP": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_EngineHP_to": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_EngineKW": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_GCWR": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_GCWR_to": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_GVWR_to": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_ManufacturerId": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_ModelID": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_ModelYear": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_NCSABodyType": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_NCSAMake": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_NCSAMapExcApprovedBy": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_NCSAMapExcApprovedOn": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_NCSAMappingException": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_NCSAModel": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_OtherBusInfo": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_OtherTrailerInfo": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_SAEAutomationLevel": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_SAEAutomationLevel_to": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_SeatRows": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_Seats": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_TopSpeedMPH": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_TrackWidth": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_TrailerLength": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_TransmissionSpeeds": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_WheelBaseLong": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_WheelBaseShort": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_WheelSizeFront": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_WheelSizeRear": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_Wheels": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "vf_Windows": {
+            "ram": 800000,
+            "ram_fraction_of_total": 0.0059,
+            "type": "float32",
+            "ram_kb": 781.25,
+            "ram_mb": 0.76,
+            "ram_percent_of_total": "0.59% of total"
+        },
+        "interiorColor": {
+            "ram": 632307,
+            "ram_fraction_of_total": 0.0047,
+            "type": "category",
+            "ram_kb": 617.49,
+            "ram_mb": 0.6,
+            "ram_percent_of_total": "0.47% of total"
+        },
+        "vf_Series": {
+            "ram": 620434,
+            "ram_fraction_of_total": 0.0046,
+            "type": "category",
+            "ram_kb": 605.89,
+            "ram_mb": 0.59,
+            "ram_percent_of_total": "0.46% of total"
+        },
+        "vf_OtherEngineInfo": {
+            "ram": 565924,
+            "ram_fraction_of_total": 0.0042,
+            "type": "category",
+            "ram_kb": 552.66,
+            "ram_mb": 0.54,
+            "ram_percent_of_total": "0.42% of total"
+        },
+        "vf_Trim": {
+            "ram": 523949,
+            "ram_fraction_of_total": 0.0039,
+            "type": "category",
+            "ram_kb": 511.67,
+            "ram_mb": 0.5,
+            "ram_percent_of_total": "0.39% of total"
+        },
+        "firstSeen": {
+            "ram": 522040,
+            "ram_fraction_of_total": 0.0039,
+            "type": "category",
+            "ram_kb": 509.8,
+            "ram_mb": 0.5,
+            "ram_percent_of_total": "0.39% of total"
+        },
+        "vf_ActiveSafetySysNote": {
+            "ram": 509110,
+            "ram_fraction_of_total": 0.0038,
+            "type": "category",
+            "ram_kb": 497.18,
+            "ram_mb": 0.49,
+            "ram_percent_of_total": "0.38% of total"
+        },
+        "vf_EngineModel": {
+            "ram": 502706,
+            "ram_fraction_of_total": 0.0037,
+            "type": "category",
+            "ram_kb": 490.92,
+            "ram_mb": 0.48,
+            "ram_percent_of_total": "0.37% of total"
+        },
+        "modelName": {
+            "ram": 483730,
+            "ram_fraction_of_total": 0.0036,
+            "type": "category",
+            "ram_kb": 472.39,
+            "ram_mb": 0.46,
+            "ram_percent_of_total": "0.36% of total"
+        },
+        "vf_Model": {
+            "ram": 483730,
+            "ram_fraction_of_total": 0.0036,
+            "type": "category",
+            "ram_kb": 472.39,
+            "ram_mb": 0.46,
+            "ram_percent_of_total": "0.36% of total"
+        },
+        "vf_Note": {
+            "ram": 476484,
+            "ram_fraction_of_total": 0.0035,
+            "type": "category",
+            "ram_kb": 465.32,
+            "ram_mb": 0.45,
+            "ram_percent_of_total": "0.35% of total"
+        },
+        "lastSeen": {
+            "ram": 465529,
+            "ram_fraction_of_total": 0.0035,
+            "type": "category",
+            "ram_kb": 454.62,
+            "ram_mb": 0.44,
+            "ram_percent_of_total": "0.35% of total"
+        },
+        "vf_OtherRestraintSystemInfo": {
+            "ram": 456914,
+            "ram_fraction_of_total": 0.0034,
+            "type": "category",
+            "ram_kb": 446.21,
+            "ram_mb": 0.44,
+            "ram_percent_of_total": "0.34% of total"
+        },
+        "vf_PlantCompanyName": {
+            "ram": 432896,
+            "ram_fraction_of_total": 0.0032,
+            "type": "category",
+            "ram_kb": 422.75,
+            "ram_mb": 0.41,
+            "ram_percent_of_total": "0.32% of total"
+        },
+        "vf_PlantCity": {
+            "ram": 428994,
+            "ram_fraction_of_total": 0.0032,
+            "type": "category",
+            "ram_kb": 418.94,
+            "ram_mb": 0.41,
+            "ram_percent_of_total": "0.32% of total"
+        },
+        "vf_SuggestedVIN": {
+            "ram": 418003,
+            "ram_fraction_of_total": 0.0031,
+            "type": "category",
+            "ram_kb": 408.21,
+            "ram_mb": 0.4,
+            "ram_percent_of_total": "0.31% of total"
+        },
+        "vf_Series2": {
+            "ram": 412619,
+            "ram_fraction_of_total": 0.0031,
+            "type": "category",
+            "ram_kb": 402.95,
+            "ram_mb": 0.39,
+            "ram_percent_of_total": "0.31% of total"
+        },
+        "dealerID": {
+            "ram": 400000,
+            "ram_fraction_of_total": 0.003,
+            "type": "uint16",
+            "ram_kb": 390.62,
+            "ram_mb": 0.38,
+            "ram_percent_of_total": "0.30% of total"
+        },
+        "vf_AdditionalErrorText": {
+            "ram": 212709,
+            "ram_fraction_of_total": 0.0016,
+            "type": "category",
+            "ram_kb": 207.72,
+            "ram_mb": 0.2,
+            "ram_percent_of_total": "0.16% of total"
+        },
+        "vf_Manufacturer": {
+            "ram": 209362,
+            "ram_fraction_of_total": 0.0016,
+            "type": "category",
+            "ram_kb": 204.46,
+            "ram_mb": 0.2,
+            "ram_percent_of_total": "0.16% of total"
+        },
+        "vf_PlantState": {
+            "ram": 208313,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 203.43,
+            "ram_mb": 0.2,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_EngineManufacturer": {
+            "ram": 207120,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 202.27,
+            "ram_mb": 0.2,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_PossibleValues": {
+            "ram": 206587,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 201.75,
+            "ram_mb": 0.2,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_MakeID": {
+            "ram": 206319,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 201.48,
+            "ram_mb": 0.2,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "brandName": {
+            "ram": 205820,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 201.0,
+            "ram_mb": 0.2,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_Make": {
+            "ram": 205820,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 201.0,
+            "ram_mb": 0.2,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_Trim2": {
+            "ram": 204567,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 199.77,
+            "ram_mb": 0.2,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_BodyClass": {
+            "ram": 203175,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 198.41,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_PlantCountry": {
+            "ram": 202888,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 198.13,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_GVWR": {
+            "ram": 202143,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 197.41,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_DestinationMarket": {
+            "ram": 201980,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 197.25,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_BatteryInfo": {
+            "ram": 201865,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 197.13,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_BrakeSystemDesc": {
+            "ram": 201739,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 197.01,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_OtherMotorcycleInfo": {
+            "ram": 201097,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 196.38,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_BodyCabType": {
+            "ram": 200971,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 196.26,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_FuelTypePrimary": {
+            "ram": 200829,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 196.12,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_FuelInjectionType": {
+            "ram": 200743,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 196.04,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_TransmissionStyle": {
+            "ram": 200683,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.98,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_FuelTypeSecondary": {
+            "ram": 200638,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.94,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_DriveType": {
+            "ram": 200606,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.9,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_VehicleType": {
+            "ram": 200600,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.9,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_WheelBaseType": {
+            "ram": 200557,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.86,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_AirBagLocSide": {
+            "ram": 200543,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.84,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_ElectrificationLevel": {
+            "ram": 200538,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.84,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_BedType": {
+            "ram": 200496,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.8,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_AirBagLocSeatCushion": {
+            "ram": 200477,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.78,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_NCSANote": {
+            "ram": 200474,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.78,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_AirBagLocCurtain": {
+            "ram": 200470,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.77,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_EngineConfiguration": {
+            "ram": 200451,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.75,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_AutomaticPedestrianAlertingSound": {
+            "ram": 200443,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.75,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_EDR": {
+            "ram": 200443,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.75,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_LaneKeepSystem": {
+            "ram": 200443,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.75,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_ValveTrainDesign": {
+            "ram": 200349,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.65,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_AirBagLocKnee": {
+            "ram": 200342,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.65,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_SeatBeltsAll": {
+            "ram": 200312,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.62,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_AdaptiveCruiseControl": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_AdaptiveDrivingBeam": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_AutoReverseSystem": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_BlindSpotMon": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_CAN_AACN": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_CIB": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_DaytimeRunningLight": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_DynamicBrakeSupport": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_ForwardCollisionWarning": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_LaneDepartureWarning": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_ParkAssist": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_PedestrianAutomaticEmergencyBraking": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_RearCrossTrafficAlert": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_RearVisibilitySystem": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_SemiautomaticHeadlampBeamSwitching": {
+            "ram": 200309,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_LowerBeamHeadlampLightSource": {
+            "ram": 200303,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.61,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_AirBagLocFront": {
+            "ram": 200266,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.57,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_BatteryType": {
+            "ram": 200265,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.57,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_SteeringLocation": {
+            "ram": 200265,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.57,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_EntertainmentSystem": {
+            "ram": 200258,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.56,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_CustomMotorcycleType": {
+            "ram": 200256,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.56,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_EVDriveUnit": {
+            "ram": 200244,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.55,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_KeylessIgnition": {
+            "ram": 200238,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.54,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_TractionControl": {
+            "ram": 200238,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.54,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_TPMS": {
+            "ram": 200236,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.54,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_BrakeSystemType": {
+            "ram": 200234,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.54,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_CoolingType": {
+            "ram": 200230,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.54,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_Turbo": {
+            "ram": 200227,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.53,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_AxleConfiguration": {
+            "ram": 200187,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.5,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_AdaptiveHeadlights": {
+            "ram": 200179,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.49,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_BusFloorConfigType": {
+            "ram": 200179,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.49,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_BusType": {
+            "ram": 200179,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.49,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_DriverAssist": {
+            "ram": 200179,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.49,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_MotorcycleChassisType": {
+            "ram": 200179,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.49,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_MotorcycleSuspensionType": {
+            "ram": 200179,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.49,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_TrailerBodyType": {
+            "ram": 200179,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.49,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_TrailerType": {
+            "ram": 200179,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.49,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_ABS": {
+            "ram": 200173,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.48,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_ESC": {
+            "ram": 200173,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.48,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "vf_Pretensioner": {
+            "ram": 200168,
+            "ram_fraction_of_total": 0.0015,
+            "type": "category",
+            "ram_kb": 195.48,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        },
+        "isNew": {
+            "ram": 200000,
+            "ram_fraction_of_total": 0.0015,
+            "type": "bool",
+            "ram_kb": 195.31,
+            "ram_mb": 0.19,
+            "ram_percent_of_total": "0.15% of total"
+        }
+    }
+}

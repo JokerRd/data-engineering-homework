@@ -1,0 +1,173 @@
+{
+    "comment": "Not optimized data",
+    "total": {
+        "disk": 1137561506,
+        "ram": 91252192,
+        "disk_kb": 1110899.91,
+        "ram_kb": 89113.47,
+        "disk_mb": 1084.86,
+        "ram_mb": 87.02
+    },
+    "columns": {
+        "Brew_Date": {
+            "ram": 15200000,
+            "ram_fraction_of_total": 0.1666,
+            "type": "object",
+            "ram_kb": 14843.75,
+            "ram_mb": 14.5,
+            "ram_percent_of_total": "16.66% of total"
+        },
+        "Ingredient_Ratio": {
+            "ram": 13600000,
+            "ram_fraction_of_total": 0.149,
+            "type": "object",
+            "ram_kb": 13281.25,
+            "ram_mb": 12.97,
+            "ram_percent_of_total": "14.90% of total"
+        },
+        "Location": {
+            "ram": 13578725,
+            "ram_fraction_of_total": 0.1488,
+            "type": "object",
+            "ram_kb": 13260.47,
+            "ram_mb": 12.95,
+            "ram_percent_of_total": "14.88% of total"
+        },
+        "Beer_Style": {
+            "ram": 12473674,
+            "ram_fraction_of_total": 0.1367,
+            "type": "object",
+            "ram_kb": 12181.32,
+            "ram_mb": 11.9,
+            "ram_percent_of_total": "13.67% of total"
+        },
+        "SKU": {
+            "ram": 12399793,
+            "ram_fraction_of_total": 0.1359,
+            "type": "object",
+            "ram_kb": 12109.17,
+            "ram_mb": 11.83,
+            "ram_percent_of_total": "13.59% of total"
+        },
+        "Batch_ID": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "Fermentation_Time": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "Temperature": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "pH_Level": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "Gravity": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "Alcohol_Content": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "Bitterness": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "Color": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "Volume_Produced": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "int64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "Total_Sales": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "Quality_Score": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "Brewhouse_Efficiency": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "Loss_During_Brewing": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "Loss_During_Fermentation": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        },
+        "Loss_During_Bottling_Kegging": {
+            "ram": 1600000,
+            "ram_fraction_of_total": 0.0175,
+            "type": "float64",
+            "ram_kb": 1562.5,
+            "ram_mb": 1.53,
+            "ram_percent_of_total": "1.75% of total"
+        }
+    }
+}
