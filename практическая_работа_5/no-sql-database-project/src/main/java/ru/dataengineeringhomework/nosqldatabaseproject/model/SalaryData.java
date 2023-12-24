@@ -18,7 +18,7 @@ public class SalaryData {
     @JsonIgnore
     private final BigInteger _id;
 
-    private final Long id;
+    private final Long club_id;
 
     private final Integer age;
 

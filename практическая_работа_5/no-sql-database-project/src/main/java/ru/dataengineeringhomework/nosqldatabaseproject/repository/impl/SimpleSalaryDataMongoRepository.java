@@ -11,6 +11,7 @@ import org.springframework.stereotype.Repository;
 import ru.dataengineeringhomework.nosqldatabaseproject.model.InFilter;
 import ru.dataengineeringhomework.nosqldatabaseproject.model.RangeFilter;
 import ru.dataengineeringhomework.nosqldatabaseproject.model.SalaryData;
+import ru.dataengineeringhomework.nosqldatabaseproject.repository.CommonRepository;
 import ru.dataengineeringhomework.nosqldatabaseproject.repository.SimpleSalaryDataRepository;
 import ru.dataengineeringhomework.nosqldatabaseproject.repository.SalarySpringDataRepository;
 
@@ -24,6 +25,7 @@ public class SimpleSalaryDataMongoRepository implements SimpleSalaryDataReposito
 
     private final SalarySpringDataRepository salarySpringDataRepository;
     private final MongoTemplate mongoTemplate;
+    private final CommonRepository commonRepository;
 
     @Override
     public List<SalaryData> getAllSortedAndLimited(int limit, Sort sort) {
@@ -63,23 +65,12 @@ public class SimpleSalaryDataMongoRepository implements SimpleSalaryDataReposito
 
     @Override
     public List<SalaryData> deleteByLessThanOrGreatThen(String nameField, Integer lessThen, Integer greatThen) {
-        var query = Query.query(
-                new Criteria().orOperator(
-                        Criteria.where(nameField).lt(lessThen),
-                        Criteria.where(nameField).gt(greatThen)
-                )
-        );
-        return mongoTemplate.findAllAndRemove(query, SalaryData.class);
+        return commonRepository.deleteByLessThanOrGreatThen(nameField, lessThen, greatThen, SalaryData.class);
     }
 
     @Override
     public List<SalaryData> incrementByField(String name) {
-        var updateResult = mongoTemplate
-                .update(SalaryData.class)
-                .apply(new Update().inc(name, 1))
-                .all();
-
-        return mongoTemplate.findAll(SalaryData.class);
+        return commonRepository.incrementByField(name, SalaryData.class);
     }
 
 }
