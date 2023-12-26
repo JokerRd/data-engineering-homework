@@ -40,6 +40,23 @@ class ChessInformation:
     count_view: int | None = None
 
 
+@dataclass
+class PhoneInformation:
+    id: int | None = None
+    model: str | None = None
+    screen_size_inch: float | None = None
+    memory_storage_gb: int | None = None
+    price_rub: int | None = None
+    bonus: int | None = None
+    processor: str | None = None
+    ram_gb: int | None = None
+    count_sim: int | None = None
+    matrix: str | None = None
+    resolution: str | None = None
+    size_camera_mp: int | None = None
+    acc_mah: str | None = None
+
+
 class DataEncoder(json.JSONEncoder):
     def default(self, obj):
         return vars(obj)

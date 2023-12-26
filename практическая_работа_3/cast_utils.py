@@ -5,8 +5,8 @@ def cast_from_str_to(text: str, cast_func):
 
 
 def cast_int(text: str) -> int | None:
-    return cast_from_str_to(text, lambda string: int(string))
+    return cast_from_str_to(text, lambda string: int(string.replace(' ', '')))
 
 
 def cast_float(text: str) -> int | None:
-    return cast_from_str_to(text, lambda string: float(string))
+    return cast_from_str_to(text, lambda string: float(string.replace(' ', '')))
