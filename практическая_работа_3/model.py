@@ -57,6 +57,18 @@ class PhoneInformation:
     acc_mah: str | None = None
 
 
+@dataclass
+class StarInformation:
+    name: str | None = None
+    constellation: str | None = None
+    spectral_class: str | None = None
+    radius: int | None = None
+    rotation_day: float | None = None
+    age_b_years: float | None = None
+    distance_m_km: float | None = None
+    absolute_magnitude_m_km: float | None = None
+
+
 class DataEncoder(json.JSONEncoder):
     def default(self, obj):
         return vars(obj)

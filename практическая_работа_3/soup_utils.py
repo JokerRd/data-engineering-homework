@@ -1,12 +1,13 @@
 from bs4 import BeautifulSoup
 
 from text_utils import substring_from_text_html, get_value_from_substring, exclude_substring, substring_with_regex
+from cast_utils import cast_float, cast_int
 
 
 class SoupHelper:
 
-    def __init__(self, html):
-        self.soup = BeautifulSoup(html, 'html.parser')
+    def __init__(self, html, parser='html.parser'):
+        self.soup = BeautifulSoup(html, parser)
         self.separator_value = ":"
 
     def get_value_by_selector_and_name(self, selector: str, name: str) -> str | None:
@@ -51,6 +52,9 @@ class SoupHelper:
             return None
         return tag.get_text().strip()
 
-    def get_number_value_by_selector(self, selector: str) -> str | None:
-        return self.parse_value_by_selector(selector,
-                                            lambda raw: substring_with_regex(raw, r'-?\d+'))
+    def get_num_value_by_selector(self, selector: str) -> int | None:
+        return cast_int(self.parse_value_by_selector(selector, lambda raw: substring_with_regex(raw, r'-?\d+')))
+
+    def get_float_num_value_by_selector(self, selector: str) -> float | None:
+        pattern = r'[-+]?([0-9]*\.[0-9]+|[0-9]+)'
+        return cast_float(self.parse_value_by_selector(selector, lambda raw: substring_with_regex(raw, pattern)))
