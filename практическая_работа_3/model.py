@@ -69,6 +69,22 @@ class StarInformation:
     absolute_magnitude_m_km: float | None = None
 
 
+@dataclass
+class ClothingInformation:
+    id: int | None = None
+    name: str | None = None
+    category: str | None = None
+    size: str | None = None
+    color: str | None = None
+    material: str | None = None
+    price: int | None = None
+    rating: float | None = None
+    reviews: int | None = None
+    new: bool | None = None
+    exclusive: bool | None = None
+    sporty: bool | None = None
+
+
 class DataEncoder(json.JSONEncoder):
     def default(self, obj):
         return vars(obj)

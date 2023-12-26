@@ -42,7 +42,7 @@ class SoupHelper:
         text = tag.get_text()
         return parse_func(text)
 
-    def get_elements_html_by_selector(self, selector: str) -> list:
+    def get_elements_by_selector(self, selector: str) -> list:
         tags = self.soup.select(selector)
         return list(tags)
 

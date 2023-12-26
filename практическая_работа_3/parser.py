@@ -1,8 +1,8 @@
 from file_utils import load_files, save_to_json_file
 from soup_utils import SoupHelper
 from model import ChessInformation, DataInformation, DataEncoder, \
-    PhoneInformation, StarInformation
-from cast_utils import cast_int, cast_float
+    PhoneInformation, StarInformation, ClothingInformation
+from cast_utils import cast_int, cast_float, cast_bool
 from stat_utils import calculate_stat, calculate_frequency
 from text_utils import substring_with_regex, exclude_substring
 
@@ -48,7 +48,7 @@ def parse_html_with_phone_information(html: str):
 
 def parse_html_with_phone_information_list(html: str) -> list:
     helper = SoupHelper(html)
-    elements = helper.get_elements_html_by_selector("div.pad")
+    elements = helper.get_elements_by_selector("div.pad")
     return list(map(lambda item: parse_html_with_phone_information(str(item)), elements))
 
 
@@ -64,6 +64,30 @@ def parse_xml_with_star_information(xml: str) -> StarInformation:
     star_info.distance_m_km = helper.get_float_num_value_by_selector('distance')
     star_info.absolute_magnitude_m_km = helper.get_float_num_value_by_selector('absolute-magnitude')
     return star_info
+
+
+def parse_xml_with_clothing_information_list(xml: str) -> list:
+    helper = SoupHelper(xml, 'xml')
+    elements = helper.get_elements_by_selector("clothing")
+    return list(map(lambda item: parse_xml_with_clothing_information(str(item)), elements))
+
+
+def parse_xml_with_clothing_information(xml: str) -> ClothingInformation:
+    helper = SoupHelper(xml, 'xml')
+    clothing_info = ClothingInformation()
+    clothing_info.id = cast_int(helper.get_value_by_selector('id'))
+    clothing_info.name = helper.get_value_by_selector('name')
+    clothing_info.category = helper.get_value_by_selector('category')
+    clothing_info.size = helper.get_value_by_selector('size')
+    clothing_info.color = helper.get_value_by_selector('color')
+    clothing_info.material = helper.get_value_by_selector('material')
+    clothing_info.price = cast_int(helper.get_value_by_selector('price'))
+    clothing_info.rating = cast_float(helper.get_value_by_selector('rating'))
+    clothing_info.reviews = cast_int(helper.get_value_by_selector('reviews'))
+    clothing_info.new = cast_bool(helper.get_value_by_selector('new'), '+', '-')
+    clothing_info.exclusive = cast_bool(helper.get_value_by_selector('exclusive'), 'yes', 'no')
+    clothing_info.sporty = cast_bool(helper.get_value_by_selector('sporty'), 'yes', 'no')
+    return clothing_info
 
 
 def parse_html_task_1():
@@ -105,6 +129,20 @@ def parse_html_task_3():
     save_to_json_file(result, DataEncoder, "task_3_answer.json")
 
 
-# parse_html_task_1()
-# parse_html_task_2()
+def parse_html_task_4():
+    files_as_str = load_files('4_zip_var_51')
+    clothing_information_list = map(lambda xml: parse_xml_with_clothing_information_list(xml), files_as_str)
+    clothing_information_flat_list = sum(clothing_information_list, [])
+    sorted_data = sorted(clothing_information_flat_list, key=lambda item: item.price, reverse=True)
+    filtered_data = list(
+        filter(lambda item: (item.new is not None and item.new) and item.rating > 4.0, clothing_information_flat_list))
+    stat = calculate_stat("price", lambda item: item.price, clothing_information_flat_list)
+    frequency = calculate_frequency("category", lambda item: item.category, clothing_information_flat_list)
+    result = DataInformation(clothing_information_flat_list, sorted_data, filtered_data, stat, frequency)
+    save_to_json_file(result, DataEncoder, "task_4_answer.json")
+
+
+parse_html_task_1()
+parse_html_task_2()
 parse_html_task_3()
+parse_html_task_4()
