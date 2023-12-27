@@ -1,0 +1,286 @@
+{
+    "raw_data": [
+        {
+            "name": "Электрический лобзик KEYANG JS135-750V",
+            "price": 7964,
+            "type": "с маятниковым ходом",
+            "power_wt": 750,
+            "net_weight": 3.2,
+            "max_cutting_thickness_wood_mm": 135,
+            "max_cutting_thickness_metal_mm": 10,
+            "pendulum_stroke": true,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": 26
+        },
+        {
+            "name": "Электролобзик JCB  800 W, 500-3000 ход/мин, -JS800-E(57244) JCB-JS800-E(57244)",
+            "price": 6417,
+            "type": "с маятниковым ходом",
+            "power_wt": 800,
+            "net_weight": 3.03,
+            "max_cutting_thickness_wood_mm": 100,
+            "max_cutting_thickness_metal_mm": 10,
+            "pendulum_stroke": true,
+            "handle_shape": null,
+            "saw_stroke_mm": 20
+        },
+        {
+            "name": "Лобзик Ryobi RJS850K 5133002217",
+            "price": 7097,
+            "type": "с маятниковым ходом",
+            "power_wt": 600,
+            "net_weight": 2.0,
+            "max_cutting_thickness_wood_mm": 85,
+            "max_cutting_thickness_metal_mm": 9,
+            "pendulum_stroke": true,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": 23
+        },
+        {
+            "name": "Электрический лобзик ЗУБР 570 Вт Л-570",
+            "price": 4100,
+            "type": "с маятниковым ходом",
+            "power_wt": 570,
+            "net_weight": 1.8,
+            "max_cutting_thickness_wood_mm": 65,
+            "max_cutting_thickness_metal_mm": 8,
+            "pendulum_stroke": true,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": 19
+        },
+        {
+            "name": "Электрический лобзик ВИХРЬ ЛЭ-80 72/9/3",
+            "price": 3290,
+            "type": "с маятниковым ходом",
+            "power_wt": 750,
+            "net_weight": 2.1,
+            "max_cutting_thickness_wood_mm": 80,
+            "max_cutting_thickness_metal_mm": 10,
+            "pendulum_stroke": true,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": null
+        },
+        {
+            "name": "Лобзик AEG ST 800 XE 4935412950",
+            "price": 15713,
+            "type": "с маятниковым ходом",
+            "power_wt": 705,
+            "net_weight": 2.3,
+            "max_cutting_thickness_wood_mm": 110,
+            "max_cutting_thickness_metal_mm": 10,
+            "pendulum_stroke": true,
+            "handle_shape": "грибовидная",
+            "saw_stroke_mm": 26
+        },
+        {
+            "name": "Лобзик Энкор ЛЭ-800/100Э 50227",
+            "price": 4520,
+            "type": "с маятниковым ходом",
+            "power_wt": 800,
+            "net_weight": 2.0,
+            "max_cutting_thickness_wood_mm": 100,
+            "max_cutting_thickness_metal_mm": 10,
+            "pendulum_stroke": true,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": 22
+        },
+        {
+            "name": "Лобзик Makita 4351 CT",
+            "price": 32098,
+            "type": "с маятниковым ходом",
+            "power_wt": 720,
+            "net_weight": 2.5,
+            "max_cutting_thickness_wood_mm": 135,
+            "max_cutting_thickness_metal_mm": 20,
+            "pendulum_stroke": true,
+            "handle_shape": "грибовидная",
+            "saw_stroke_mm": 26
+        },
+        {
+            "name": "Лобзик Milwaukee JSPE135 TX 4933381230",
+            "price": 37490,
+            "type": null,
+            "power_wt": 750,
+            "net_weight": null,
+            "max_cutting_thickness_wood_mm": 135,
+            "max_cutting_thickness_metal_mm": 10,
+            "pendulum_stroke": null,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": 26
+        },
+        {
+            "name": "Электрическая лобзиковая пила ДИОЛД ПЛЭ-1-07 М 10063165",
+            "price": 3920,
+            "type": "с маятниковым ходом",
+            "power_wt": 850,
+            "net_weight": 2.1,
+            "max_cutting_thickness_wood_mm": 100,
+            "max_cutting_thickness_metal_mm": 8,
+            "pendulum_stroke": true,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": 18
+        }
+    ],
+    "sorted_data": [
+        {
+            "name": "Лобзик Milwaukee JSPE135 TX 4933381230",
+            "price": 37490,
+            "type": null,
+            "power_wt": 750,
+            "net_weight": null,
+            "max_cutting_thickness_wood_mm": 135,
+            "max_cutting_thickness_metal_mm": 10,
+            "pendulum_stroke": null,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": 26
+        },
+        {
+            "name": "Лобзик Makita 4351 CT",
+            "price": 32098,
+            "type": "с маятниковым ходом",
+            "power_wt": 720,
+            "net_weight": 2.5,
+            "max_cutting_thickness_wood_mm": 135,
+            "max_cutting_thickness_metal_mm": 20,
+            "pendulum_stroke": true,
+            "handle_shape": "грибовидная",
+            "saw_stroke_mm": 26
+        },
+        {
+            "name": "Лобзик AEG ST 800 XE 4935412950",
+            "price": 15713,
+            "type": "с маятниковым ходом",
+            "power_wt": 705,
+            "net_weight": 2.3,
+            "max_cutting_thickness_wood_mm": 110,
+            "max_cutting_thickness_metal_mm": 10,
+            "pendulum_stroke": true,
+            "handle_shape": "грибовидная",
+            "saw_stroke_mm": 26
+        },
+        {
+            "name": "Электрический лобзик KEYANG JS135-750V",
+            "price": 7964,
+            "type": "с маятниковым ходом",
+            "power_wt": 750,
+            "net_weight": 3.2,
+            "max_cutting_thickness_wood_mm": 135,
+            "max_cutting_thickness_metal_mm": 10,
+            "pendulum_stroke": true,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": 26
+        },
+        {
+            "name": "Лобзик Ryobi RJS850K 5133002217",
+            "price": 7097,
+            "type": "с маятниковым ходом",
+            "power_wt": 600,
+            "net_weight": 2.0,
+            "max_cutting_thickness_wood_mm": 85,
+            "max_cutting_thickness_metal_mm": 9,
+            "pendulum_stroke": true,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": 23
+        },
+        {
+            "name": "Электролобзик JCB  800 W, 500-3000 ход/мин, -JS800-E(57244) JCB-JS800-E(57244)",
+            "price": 6417,
+            "type": "с маятниковым ходом",
+            "power_wt": 800,
+            "net_weight": 3.03,
+            "max_cutting_thickness_wood_mm": 100,
+            "max_cutting_thickness_metal_mm": 10,
+            "pendulum_stroke": true,
+            "handle_shape": null,
+            "saw_stroke_mm": 20
+        },
+        {
+            "name": "Лобзик Энкор ЛЭ-800/100Э 50227",
+            "price": 4520,
+            "type": "с маятниковым ходом",
+            "power_wt": 800,
+            "net_weight": 2.0,
+            "max_cutting_thickness_wood_mm": 100,
+            "max_cutting_thickness_metal_mm": 10,
+            "pendulum_stroke": true,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": 22
+        },
+        {
+            "name": "Электрический лобзик ЗУБР 570 Вт Л-570",
+            "price": 4100,
+            "type": "с маятниковым ходом",
+            "power_wt": 570,
+            "net_weight": 1.8,
+            "max_cutting_thickness_wood_mm": 65,
+            "max_cutting_thickness_metal_mm": 8,
+            "pendulum_stroke": true,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": 19
+        },
+        {
+            "name": "Электрическая лобзиковая пила ДИОЛД ПЛЭ-1-07 М 10063165",
+            "price": 3920,
+            "type": "с маятниковым ходом",
+            "power_wt": 850,
+            "net_weight": 2.1,
+            "max_cutting_thickness_wood_mm": 100,
+            "max_cutting_thickness_metal_mm": 8,
+            "pendulum_stroke": true,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": 18
+        },
+        {
+            "name": "Электрический лобзик ВИХРЬ ЛЭ-80 72/9/3",
+            "price": 3290,
+            "type": "с маятниковым ходом",
+            "power_wt": 750,
+            "net_weight": 2.1,
+            "max_cutting_thickness_wood_mm": 80,
+            "max_cutting_thickness_metal_mm": 10,
+            "pendulum_stroke": true,
+            "handle_shape": "скобовидная",
+            "saw_stroke_mm": null
+        }
+    ],
+    "filtered_data": [
+        {
+            "name": "Лобзик AEG ST 800 XE 4935412950",
+            "price": 15713,
+            "type": "с маятниковым ходом",
+            "power_wt": 705,
+            "net_weight": 2.3,
+            "max_cutting_thickness_wood_mm": 110,
+            "max_cutting_thickness_metal_mm": 10,
+            "pendulum_stroke": true,
+            "handle_shape": "грибовидная",
+            "saw_stroke_mm": 26
+        },
+        {
+            "name": "Лобзик Makita 4351 CT",
+            "price": 32098,
+            "type": "с маятниковым ходом",
+            "power_wt": 720,
+            "net_weight": 2.5,
+            "max_cutting_thickness_wood_mm": 135,
+            "max_cutting_thickness_metal_mm": 20,
+            "pendulum_stroke": true,
+            "handle_shape": "грибовидная",
+            "saw_stroke_mm": 26
+        }
+    ],
+    "stat": {
+        "name_field": "price",
+        "sum": 122609,
+        "mean": 12260.9,
+        "min": 3290,
+        "max": 37490
+    },
+    "frequency": {
+        "name_field": "handle_shape",
+        "frequency_by_name": {
+            "скобовидная": 7,
+            "грибовидная": 2
+        }
+    }
+}

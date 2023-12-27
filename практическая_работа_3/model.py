@@ -85,6 +85,34 @@ class ClothingInformation:
     sporty: bool | None = None
 
 
+@dataclass
+class JigsawInformation:
+    name: str | None = None
+    price: int | None = None
+    type: str | None = None
+    power_wt: int | None = None
+    net_weight: float | None = None
+    max_cutting_thickness_wood_mm: int | None = None
+    max_cutting_thickness_metal_mm: int | None = None
+    pendulum_stroke: bool | None = None
+    handle_shape: str | None = None
+    saw_stroke_mm: int | None = None
+
+
+@dataclass
+class AngleGrinderInformation:
+    name: str | None = None
+    price: int | None = None
+    rating: int | None = None
+    power_wt: int | None = None
+    disk_diameter_mm: int | None = None
+    rpm: str | None = None
+    maintaining_constant_rpm_under_load: bool | None = None
+    connect_vacuum_cleaner: bool | None = None
+    smooth_start: bool | None = None
+    net_weight: float | None = None
+
+
 class DataEncoder(json.JSONEncoder):
     def default(self, obj):
         return vars(obj)

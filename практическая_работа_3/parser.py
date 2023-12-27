@@ -1,7 +1,7 @@
 from file_utils import load_files, save_to_json_file
-from soup_utils import SoupHelper
+from soup_utils import SoupHelper, get_value_by_content_and_selector
 from model import ChessInformation, DataInformation, DataEncoder, \
-    PhoneInformation, StarInformation, ClothingInformation
+    PhoneInformation, StarInformation, ClothingInformation, JigsawInformation, AngleGrinderInformation
 from cast_utils import cast_int, cast_float, cast_bool
 from stat_utils import calculate_stat, calculate_frequency
 from text_utils import substring_with_regex, exclude_substring
@@ -90,6 +90,87 @@ def parse_xml_with_clothing_information(xml: str) -> ClothingInformation:
     return clothing_info
 
 
+def parse_html_with_jigsaw_information(html: str) -> JigsawInformation:
+    helper = SoupHelper(html)
+    jigsaw_information = JigsawInformation()
+    jigsaw_information.name = helper.get_value_by_selector('h1[data-qa="get-product-title"]')
+    jigsaw_information.price = cast_int(helper.get_value_attr_by_selector('meta[itemprop="price"]', 'content'))
+    items = helper.get_elements_by_selector('div[data-qa="specification-item"]')
+    items_str = list(map(lambda item: str(item), items))
+    jigsaw_information.type = get_value_by_content_and_selector(items_str,
+                                                                'Тип',
+                                                                'span[itemprop="value"]',
+                                                                lambda helper, selector: helper.get_value_by_selector(
+                                                                    selector))
+    jigsaw_information.power_wt = get_value_by_content_and_selector(items_str,
+                                                                    'Мощность',
+                                                                    'span[itemprop="value"]',
+                                                                    lambda helper,
+                                                                           selector: helper.get_num_value_by_selector(
+                                                                        selector))
+    jigsaw_information.net_weight = get_value_by_content_and_selector(items_str,
+                                                                      'Вес нетто',
+                                                                      'span[itemprop="value"]',
+                                                                      lambda helper,
+                                                                             selector: helper.get_float_num_value_by_selector(
+                                                                          selector))
+    jigsaw_information.max_cutting_thickness_wood_mm = get_value_by_content_and_selector(items_str,
+                                                                                         'Мах толщина пропила (дерево)',
+                                                                                         'span[itemprop="value"]',
+                                                                                         lambda helper,
+                                                                                                selector: helper.get_num_value_by_selector(
+                                                                                             selector))
+    jigsaw_information.max_cutting_thickness_metal_mm = get_value_by_content_and_selector(items_str,
+                                                                                          'Мах толщина пропила (металла)',
+                                                                                          'span[itemprop="value"]',
+                                                                                          lambda helper,
+                                                                                                 selector: helper.get_num_value_by_selector(
+                                                                                              selector))
+    jigsaw_information.pendulum_stroke = cast_bool(get_value_by_content_and_selector(items_str,
+                                                                                     'Маятниковый ход',
+                                                                                     'span[itemprop="value"]',
+                                                                                     lambda helper,
+                                                                                            selector: helper.get_value_by_selector(
+                                                                                         selector)), 'да', 'нет')
+    jigsaw_information.handle_shape = get_value_by_content_and_selector(items_str,
+                                                                        'Форма ручки',
+                                                                        'span[itemprop="value"]',
+                                                                        lambda helper,
+                                                                               selector: helper.get_value_by_selector(
+                                                                            selector))
+    jigsaw_information.saw_stroke_mm = get_value_by_content_and_selector(items_str,
+                                                                         'Ход пилки',
+                                                                         'span[itemprop="value"]',
+                                                                         lambda helper,
+                                                                                selector: helper.get_num_value_by_selector(
+                                                                             selector))
+    return jigsaw_information
+
+
+def parse_html_with_angle_grinder_information_list(html):
+    helper = SoupHelper(html)
+    elements = helper.get_elements_by_selector('div[data-qa="products-tile-horizontal"]')
+    return list(map(lambda item: parse_html_with_angle_grinder_information(str(item)), elements))
+
+
+def parse_html_with_angle_grinder_information(html):
+    helper = SoupHelper(html)
+    angle_grinder_info = AngleGrinderInformation()
+    angle_grinder_info.name = helper.get_value_attr_by_selector('a[data-qa="product-name"]', 'title')
+    angle_grinder_info.price = helper.get_num_value_by_selector('p[data-qa="product-price-current"]')
+    angle_grinder_info.rating = helper.get_num_value_by_selector('a[data-qa="product-rating"] span')
+    angle_grinder_info.power_wt = helper.get_num_value_by_selector('ul li:nth-child(1) span')
+    angle_grinder_info.disk_diameter_mm = helper.get_num_value_by_selector('ul li:nth-child(2) span')
+    angle_grinder_info.rpm = helper.get_value_by_selector('ul li:nth-child(3) span')
+    angle_grinder_info.maintaining_constant_rpm_under_load = cast_bool(
+        helper.get_value_by_selector('ul li:nth-child(4) span'), 'да', 'нет')
+    angle_grinder_info.connect_vacuum_cleaner = cast_bool(helper.get_value_by_selector('ul li:nth-child(5) span'), 'да',
+                                                          'нет')
+    angle_grinder_info.smooth_start = cast_bool(helper.get_value_by_selector('ul li:nth-child(6) span'), 'да', 'нет')
+    angle_grinder_info.net_weight = helper.get_float_num_value_by_selector('ul li:nth-child(7) span')
+    return angle_grinder_info
+
+
 def parse_html_task_1():
     files_as_str = load_files('1_zip_var_51')
     chess_information_list = list(map(lambda html: parse_html_with_chess_information(html), files_as_str))
@@ -117,7 +198,7 @@ def parse_html_task_2():
     save_to_json_file(result, DataEncoder, "task_2_answer.json")
 
 
-def parse_html_task_3():
+def parse_xml_task_3():
     files_as_str = load_files('3_zip_var_51')
     star_information_list = list(map(lambda xml: parse_xml_with_star_information(xml), files_as_str))
     sorted_data = sorted(star_information_list, key=lambda item: item.age_b_years)
@@ -129,7 +210,7 @@ def parse_html_task_3():
     save_to_json_file(result, DataEncoder, "task_3_answer.json")
 
 
-def parse_html_task_4():
+def parse_xml_task_4():
     files_as_str = load_files('4_zip_var_51')
     clothing_information_list = map(lambda xml: parse_xml_with_clothing_information_list(xml), files_as_str)
     clothing_information_flat_list = sum(clothing_information_list, [])
@@ -142,7 +223,35 @@ def parse_html_task_4():
     save_to_json_file(result, DataEncoder, "task_4_answer.json")
 
 
+def parse_html_task_5_single():
+    files_as_str = load_files('5_custom_single')
+    jigsaw_information_list = list(map(lambda html: parse_html_with_jigsaw_information(html), files_as_str))
+    sorted_data = sorted(jigsaw_information_list, key=lambda item: item.price, reverse=True)
+    filtered_data = list(filter(lambda item: item.handle_shape == 'грибовидная', jigsaw_information_list))
+    stat = calculate_stat("price", lambda item: item.price, jigsaw_information_list)
+    frequency = calculate_frequency('handle_shape', lambda item: item.handle_shape, jigsaw_information_list)
+    result = DataInformation(jigsaw_information_list, sorted_data, filtered_data, stat, frequency)
+    save_to_json_file(result, DataEncoder, "task_5_single_answer.json")
+
+
+def parse_html_task_5_list():
+    files_as_str = load_files('5_custom_list')
+    angle_grinder_information_list = map(lambda html: parse_html_with_angle_grinder_information_list(html),
+                                         files_as_str)
+    angle_grinder_information_flat_list = sum(angle_grinder_information_list, [])
+    sorted_data = sorted(angle_grinder_information_flat_list, key=lambda item: item.price)
+    filtered_data = list(filter(lambda item: (item.rating is not None and item.rating > 500)
+                                             and (item.power_wt is not None and item.power_wt > 1000),
+                                angle_grinder_information_flat_list))
+    stat = calculate_stat("price", lambda item: item.price, angle_grinder_information_flat_list)
+    frequency = calculate_frequency('power_wt', lambda item: item.power_wt, angle_grinder_information_flat_list)
+    result = DataInformation(angle_grinder_information_flat_list, sorted_data, filtered_data, stat, frequency)
+    save_to_json_file(result, DataEncoder, "task_5_list_answer.json")
+
+
 parse_html_task_1()
 parse_html_task_2()
-parse_html_task_3()
-parse_html_task_4()
+parse_xml_task_3()
+parse_xml_task_4()
+parse_html_task_5_single()
+parse_html_task_5_list()

@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-
+import unidecode
 from text_utils import substring_from_text_html, get_value_from_substring, exclude_substring, substring_with_regex
 from cast_utils import cast_float, cast_int
 
@@ -39,7 +39,7 @@ class SoupHelper:
         tag = self.soup.select_one(selector)
         if tag is None:
             return None
-        text = tag.get_text()
+        text = tag.get_text().strip()
         return parse_func(text)
 
     def get_elements_by_selector(self, selector: str) -> list:
@@ -53,8 +53,23 @@ class SoupHelper:
         return tag.get_text().strip()
 
     def get_num_value_by_selector(self, selector: str) -> int | None:
-        return cast_int(self.parse_value_by_selector(selector, lambda raw: substring_with_regex(raw, r'-?\d+')))
+        return cast_int(self.parse_value_by_selector(selector,
+                                                     lambda raw: substring_with_regex(
+                                                         unidecode.unidecode(raw).replace(' ', ''),
+                                                         r'-?\d+')))
 
     def get_float_num_value_by_selector(self, selector: str) -> float | None:
         pattern = r'[-+]?([0-9]*\.[0-9]+|[0-9]+)'
-        return cast_float(self.parse_value_by_selector(selector, lambda raw: substring_with_regex(raw, pattern)))
+        return cast_float(
+            self.parse_value_by_selector(selector,
+                                         lambda raw: substring_with_regex(unidecode.unidecode(raw).replace(' ', ''),
+                                                                          pattern)))
+
+
+def get_value_by_content_and_selector(items_str: list[str], content: str, selector: str, func_selector) -> str | None:
+    found = list(filter(lambda item: content in item, items_str))
+    if len(found) == 0:
+        return None
+    html_part = found[-1]
+    helper = SoupHelper(html_part)
+    return func_selector(helper, selector)
