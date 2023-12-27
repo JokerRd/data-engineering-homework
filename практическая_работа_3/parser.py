@@ -4,7 +4,8 @@ from model import ChessInformation, DataInformation, DataEncoder, \
     PhoneInformation, StarInformation, ClothingInformation, JigsawInformation, AngleGrinderInformation
 from cast_utils import cast_int, cast_float, cast_bool
 from stat_utils import calculate_stat, calculate_frequency
-from text_utils import substring_with_regex, exclude_substring
+from text_utils import substring_with_regex, exclude_substring, get_value_from_substring, \
+    get_value_from_substring_with_exclude
 
 
 def parse_html_with_chess_information(html: str):
@@ -12,9 +13,10 @@ def parse_html_with_chess_information(html: str):
     chess_info = ChessInformation()
     chess_info.type = helper.get_substring_value_by_selector("div.chess-wrapper div span")
     chess_info.tournament = helper.get_substring_value_by_selector("h1.title")
-    chess_info.city = helper.get_value_by_selector_and_exclude_substring("p.address-p",
-                                                                         "Город", "Начало")
-    chess_info.date = helper.get_value_by_selector_and_name("p.address-p", "Начало")
+    chess_info.city = helper.parse_value_by_selector("p.address-p",
+                                                     lambda item: get_value_from_substring_with_exclude(item, ':',
+                                                                                                        'Начало', 1))
+    chess_info.date = helper.parse_value_by_selector("p.address-p", lambda item: get_value_from_substring(item, ':'))
     chess_info.round_count = cast_int(helper.get_substring_value_by_selector("span.count"))
     chess_info.time_control = helper.get_substring_value_by_selector("span.year")
     chess_info.min_rating = cast_int(helper.get_substring_value_by_selector("span.year + span"))
@@ -249,9 +251,9 @@ def parse_html_task_5_list():
     save_to_json_file(result, DataEncoder, "task_5_list_answer.json")
 
 
-parse_html_task_1()
-parse_html_task_2()
-parse_xml_task_3()
+#parse_html_task_1()
+#parse_html_task_2()
+# parse_xml_task_3()
 parse_xml_task_4()
-parse_html_task_5_single()
-parse_html_task_5_list()
+# parse_html_task_5_single()
+# parse_html_task_5_list()

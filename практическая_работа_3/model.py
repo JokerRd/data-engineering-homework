@@ -1,3 +1,4 @@
+import dataclasses
 import json
 from dataclasses import dataclass
 
@@ -115,4 +116,9 @@ class AngleGrinderInformation:
 
 class DataEncoder(json.JSONEncoder):
     def default(self, obj):
-        return vars(obj)
+        dict_obj = dict(vars(obj))
+        new_dict = {}
+        for key, value in dict_obj.items():
+            if value is not None:
+                new_dict[key] = value
+        return new_dict
