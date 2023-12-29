@@ -1,4 +1,5 @@
 from model import StatInformation
+import datetime
 
 
 def get_name_column(field):
@@ -28,6 +29,12 @@ def cast_str_to_float(value: str):
 
 def cast_str_number_to_bool(value: str):
     return bool(int(value))
+
+
+def cast_str_to_date(value: str):
+    if value is None or value == '':
+        return None
+    return datetime.datetime.strptime(value, '%Y-%m-%d').date()
 
 
 def delete_key_value_by_key_list(dictionary, key_list):

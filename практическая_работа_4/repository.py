@@ -1,4 +1,4 @@
-from практическая_работа_4.db_model import House, ReviewHouse, Song, Phone
+from практическая_работа_4.db_model import House, ReviewHouse, Song, Phone, Club, ClubGame, Player
 from sqlalchemy.orm import Session
 from sqlalchemy import select, text, func
 
@@ -221,3 +221,94 @@ class PhoneRepository:
                 session.rollback()
                 print(
                     f"Операция {method} c параметром {param} не применена к сущностям с именем {param}, так как нарушает ограничения")
+
+
+class ClubRepository:
+    def __init__(self, engine):
+        self.engine = engine
+
+    def save_all(self, club_list: list[Club]):
+        with Session(self.engine) as session:
+            session.add_all(club_list)
+            session.commit()
+
+    def get_by_more_than_squad_size(self, squad_size, sort, limit: int) -> list[Club]:
+        with (Session(self.engine) as session):
+            query = (select(Club).where(Club.squad_size > squad_size)
+                     .order_by(sort)
+                     .limit(limit))
+            print(query)
+            return list(session.scalars(query))
+
+    def get_club_by_player_name(self, player_name: str):
+        with (Session(self.engine) as session):
+            query = (select(Club).select_from(Club).join(Player, Player.current_club_id == Club.club_id)
+                     .where(Player.name == player_name)
+                     .limit(1))
+            print(query)
+            return session.scalar(query)
+
+
+class ClubGameRepository:
+    def __init__(self, engine):
+        self.engine = engine
+
+    def save_all(self, club_game_list: list[ClubGame]):
+        with Session(self.engine) as session:
+            session.add_all(club_game_list)
+            session.commit()
+
+    def get_frequency(self, field):
+        with Session(self.engine) as session:
+            query = select(field, func.count(field).label("count")).group_by(field)
+            print(query)
+            return list(session.execute(query))
+
+
+    def get_stat(self, group_field, agg_field):
+        with Session(self.engine) as session:
+            query = (select(
+                group_field,
+                func.count(group_field).label('count'),
+                func.sum(agg_field).label("sum"),
+                func.min(agg_field).label('min'),
+                func.max(agg_field).label('max'),
+                func.avg(agg_field).label('mean'))
+                     .group_by(group_field))
+            print(query)
+            return list(session.execute(query))
+
+    def get_players_for_club_with_most_sum_own_goals(self):
+        with Session(self.engine) as session:
+            sub_query = (select(ClubGame.club_id.label("club_id"), func.sum(ClubGame.own_goals).label('sum_goals'))
+                         .group_by(ClubGame.club_id)
+                         .order_by(text("sum_goals desc"))
+                         .limit(1)
+                         .subquery())
+
+            query = (select(Player, sub_query.c.sum_goals)
+                     .select_from(Club)
+                     .join(sub_query, Club.club_id == sub_query.c.club_id)
+                     .join(Player, Player.current_club_id == Club.club_id)
+                     .where(sub_query.c.sum_goals is not None))
+            print(query)
+            return list(session.execute(query))
+
+
+class PlayerRepository:
+    def __init__(self, engine):
+        self.engine = engine
+
+    def save_all(self, player_list: list[Player]):
+        with Session(self.engine) as session:
+            session.add_all(player_list)
+            session.commit()
+
+    def get_by_country(self, country, sort, limit: int) -> list[Player]:
+        with (Session(self.engine) as session):
+            query = (select(Player)
+                     .where(Player.country_of_birth == country)
+                     .order_by(sort)
+                     .limit(limit))
+            print(query)
+            return list(session.scalars(query))

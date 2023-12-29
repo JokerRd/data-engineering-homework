@@ -1,6 +1,7 @@
+import datetime
 from typing import Optional
 
-from sqlalchemy import String, CheckConstraint
+from sqlalchemy import String, CheckConstraint, Date
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy import BIGINT, Integer, NVARCHAR, String, TIMESTAMP
 
@@ -123,3 +124,95 @@ class Phone(Base):
         return (f'<Phone name={self.name}, from_city={self.from_city}, '
                 f'is_available={self.is_available}, price={self.price}, '
                 f'quantity={self.quantity}, views={self.views}, count_update={self.count_update}>')
+
+
+class Club(Base):
+    __tablename__ = "clubs"
+
+    club_id = mapped_column(Integer, primary_key=True)
+    club_code: Mapped[str]
+    name: Mapped[str]
+    squad_size: Mapped[int]
+    average_age: Mapped[Optional[float]]
+    foreigners_number: Mapped[int]
+    national_team_players: Mapped[int]
+    stadium_name: Mapped[str]
+    stadium_seats: Mapped[int]
+    net_transfer_record: Mapped[str]
+    last_season: Mapped[int]
+
+    @staticmethod
+    def create_from_dict(dict_: dict):
+        club = Club()
+        for key in dict_:
+            setattr(club, key, dict_[key])
+        return club
+
+    def to_dict(self):
+        return {'club_id': self.club_id, 'club_code': self.club_code, 'name': self.name,
+                'squad_size': self.squad_size, ' average_age': self.average_age,
+                'foreigners_number': self.foreigners_number, ' national_team_players': self.national_team_players,
+                'stadium_name': self.stadium_name, 'stadium_seats': self.stadium_seats,
+                'net_transfer_record': self.net_transfer_record, 'last_season': self.last_season}
+
+
+class ClubGame(Base):
+    __tablename__ = 'club_games'
+
+    id = mapped_column(Integer, primary_key=True, autoincrement='auto')
+    game_id: Mapped[int]
+    club_id: Mapped[int]
+    own_goals: Mapped[int]
+    own_position: Mapped[Optional[int]]
+    own_manager_name: Mapped[str]
+    opponent_id: Mapped[int]
+    opponent_goals: Mapped[int]
+    opponent_position: Mapped[Optional[int]]
+    opponent_manager_name: Mapped[str]
+    hosting: Mapped[str]
+    is_win: Mapped[bool]
+
+    @staticmethod
+    def create_from_dict(dict_: dict):
+        club_games = ClubGame()
+        for key in dict_:
+            setattr(club_games, key, dict_[key])
+        return club_games
+
+    def to_dict(self):
+        return {'game_id': self.game_id, 'club_id': self.club_id, 'own_goals': self.own_goals,
+                'own_position': self.own_position, 'own_manager_name': self.own_manager_name,
+                'opponent_goals': self.opponent_goals, 'opponent_position': self.opponent_position,
+                'opponent_manager_name': self.opponent_manager_name, 'hosting': self.hosting, 'is_win': self.is_win}
+
+
+class Player(Base):
+    __tablename__ = 'players'
+
+    player_id = mapped_column(Integer, primary_key=True)
+    first_name: Mapped[Optional[str]]
+    last_name: Mapped[str]
+    name: Mapped[str]
+    last_season: Mapped[int]
+    current_club_id: Mapped[int]
+    country_of_birth: Mapped[Optional[str]]
+    city_of_birth: Mapped[Optional[str]]
+    date_of_birth: Mapped[Optional[datetime.date]]
+    position: Mapped[str]
+    foot: Mapped[Optional[str]]
+    height_in_cm: Mapped[Optional[int]]
+    market_value_in_eur: Mapped[Optional[int]]
+
+    @staticmethod
+    def create_from_dict(dict_: dict):
+        player = Player()
+        for key in dict_:
+            setattr(player, key, dict_[key])
+        return player
+
+    def to_dict(self):
+        return {'player_id': self.player_id, 'first_name': self.first_name, 'last_name': self.last_name,
+                'name': self.name, 'last_season': self.last_season, 'current_club_id': self.current_club_id,
+                'country_of_birth': self.country_of_birth, 'city_of_birth': self.city_of_birth,
+                'date_of_birth': self.date_of_birth, 'position': self.position, 'foot': self.foot,
+                'height_in_cm': self.height_in_cm, 'market_value_in_eur': self.market_value_in_eur}

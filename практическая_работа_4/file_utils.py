@@ -38,10 +38,12 @@ def parse_msgpack_file(name_file: str):
 
 
 def parse_csv_file(name_file: str, field_names: list[str], cast_type_by_name, skip_header: bool = True,
-                   delimiter: str = ';'):
+                   delimiter: str = ';', is_all: bool = False):
     data_from_csv = []
     with open(name_file, 'r', encoding='utf-8') as file:
         csv_reader = csv.DictReader(file, field_names, delimiter=delimiter)
+        if is_all:
+            csv_reader = csv.DictReader(file, delimiter=delimiter)
         if skip_header:
             csv_reader.__next__()
         for row in csv_reader:

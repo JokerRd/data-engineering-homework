@@ -1,7 +1,9 @@
+import datetime
 import json
 from dataclasses import dataclass
 
-from практическая_работа_4.db_model import House, ReviewHouse, Song, Phone
+from практическая_работа_4.db_model import House, ReviewHouse, Song, Phone, Club, ClubGame, Player
+
 
 
 @dataclass
@@ -13,7 +15,7 @@ class StatInformation:
     max: int
 
 @dataclass
-class PhoneStatInformation:
+class OnlyStatInformation:
     count: int
     sum: int
     mean: float
@@ -37,14 +39,13 @@ class DataInformation:
 
 class DataEncoder(json.JSONEncoder):
     def default(self, obj):
-        if isinstance(obj, House):
+        if (isinstance(obj, House) or isinstance(obj, ReviewHouse)
+                or isinstance(obj, Song) or isinstance(obj, Phone) or isinstance(obj, Club)
+                or isinstance(obj, ClubGame) or isinstance(obj, Player)):
             return obj.to_dict()
-        if isinstance(obj, ReviewHouse):
-            return obj.to_dict()
-        if isinstance(obj, Song):
-            return obj.to_dict()
-        if isinstance(obj, Phone):
-            return obj.to_dict()
+        print(obj)
+        if isinstance(obj, datetime.date):
+            return str(obj)
         dict_obj = dict(vars(obj))
         new_dict = {}
         for key, value in dict_obj.items():
