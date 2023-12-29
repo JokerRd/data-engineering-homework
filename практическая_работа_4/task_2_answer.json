@@ -1,0 +1,4900 @@
+{
+    "review_by_city": [
+        {
+            "name": "Мануфактура 19",
+            "rating": 5.0,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 5.0,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 5.0,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 5.0,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 5.0,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 5.0,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 5.0,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 5.0,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.9,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 2,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.9,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.9,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.9,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.9,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.9,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.9,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.9,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.9,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 4.9,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.9,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.9,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.9,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.9,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.8,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.8,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.8,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.8,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.8,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.8,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.8,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 1,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.8,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.8,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.8,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.8,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 1,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.8,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.8,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.8,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.8,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.7,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 4,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.7,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.7,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.7,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.7,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.7,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.7,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 4.7,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.7,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.7,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.7,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.7,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.6,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.6,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.6,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.6,
+            "convenience": 2,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.6,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 4.6,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 4.6,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.6,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.6,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.6,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.6,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 2,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.5,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 4,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.5,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.5,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.5,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.5,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.5,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.5,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.5,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.5,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.5,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 4.5,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.5,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 3,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.5,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.5,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.4,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.4,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 4.4,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 4.4,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.4,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.3,
+            "convenience": 2,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.3,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.3,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.3,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.3,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.3,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.3,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 4,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.3,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.2,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.2,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.2,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 4.2,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 4.2,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.2,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.2,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.1,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.1,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.1,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.1,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.1,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.1,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.1,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.1,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.0,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 4.0,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 4.0,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 4.0,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.0,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 3,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 4.0,
+            "convenience": 2,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 4.0,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 4.0,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.0,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.0,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 4.0,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.9,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.9,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.9,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.9,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.9,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.9,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.9,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.9,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.9,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.8,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.8,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.8,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.8,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.8,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.8,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.8,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.8,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 3.8,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 3.8,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.8,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.8,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.7,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.7,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.7,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.7,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.7,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.7,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 3.7,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 3.7,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 3.7,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.7,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.7,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.7,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.6,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.6,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.6,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.6,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.6,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.6,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.6,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 3.6,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.6,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.5,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.5,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.5,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.5,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.5,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.5,
+            "convenience": 2,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.5,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.5,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 3.5,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 3.5,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.5,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.5,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.4,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.4,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.4,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.4,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.4,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.4,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.4,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.4,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.4,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.4,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.4,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 3.4,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.4,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.4,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.4,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.4,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.4,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.3,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.3,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.3,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 5,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.3,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.3,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.3,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.3,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.3,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.3,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.3,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 3.3,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 5,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.3,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.3,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.3,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.2,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.2,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.2,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.2,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.2,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.2,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 3.2,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 3.2,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.2,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.1,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.1,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.1,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 3.1,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 3.1,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 3.1,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 3.1,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 3.1,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 3.0,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.0,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.0,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.0,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 3.0,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.0,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.0,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 3.0,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.0,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.0,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 3.0,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 3.0,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 3.0,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 3.0,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 2.9,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 2.9,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 2.9,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 2.9,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.9,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.9,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.9,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.9,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.8,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.8,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.8,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.8,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.8,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.8,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.8,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 5,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.8,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.8,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.8,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.8,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.7,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 3,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 2.7,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 2.7,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.7,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.7,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.7,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.7,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.7,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.6,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 2,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.6,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 2.6,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 2.6,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.6,
+            "convenience": 2,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.6,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 4,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.6,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.5,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.5,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 2.5,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.5,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.5,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.5,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.5,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.4,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.4,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.4,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 2.4,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 2.4,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 2.4,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.4,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.4,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.4,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.4,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.4,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.4,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.4,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.4,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.4,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.4,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.4,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.4,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.3,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.3,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.3,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.3,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.3,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.3,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.3,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.3,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.3,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.3,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.3,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.2,
+            "convenience": 2,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.2,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 2.2,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 2.2,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 2.2,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 2.2,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 2.2,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 2.2,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 2.2,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.2,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.2,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.2,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.2,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.2,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.2,
+            "convenience": 2,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.2,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.2,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.2,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 5,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.2,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.2,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.1,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.1,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.1,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.1,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 3,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.1,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.1,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.1,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.1,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 1,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 2.1,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 1,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 2.1,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.1,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.1,
+            "convenience": 2,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.1,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.1,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.0,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 2,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 2.0,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.0,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.0,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.0,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.0,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 2.0,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 2.0,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.0,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.0,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 2.0,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 2.0,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.0,
+            "convenience": 2,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.0,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 2,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 2.0,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.9,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.9,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.9,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.9,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.9,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.9,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.9,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.8,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.8,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 1.8,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 1.8,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 1.8,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 1.8,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.8,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.8,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.8,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.8,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.8,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.8,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.8,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.8,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.8,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.8,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.8,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.7,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.7,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.7,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.7,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.7,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.7,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.7,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.7,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.7,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.7,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.7,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 2,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.7,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.7,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.7,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.7,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.6,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 1.6,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 1.6,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.6,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.6,
+            "convenience": 2,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.6,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.6,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.6,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 3,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.6,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.6,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.6,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.6,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.5,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.5,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.5,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 1.5,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.5,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.5,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.5,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.5,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.5,
+            "convenience": 2,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.5,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.5,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 4,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.4,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.4,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.4,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.4,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.4,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 5,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.4,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.4,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.4,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.4,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.4,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 5,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.4,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.3,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.3,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 1.3,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 1.3,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 1.3,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.3,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.3,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.3,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.3,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.3,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.3,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.3,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.3,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 2,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.2,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 1.2,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 4,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.2,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.2,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.2,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.2,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.2,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.2,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.2,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.1,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.1,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.1,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.1,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.1,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 1.1,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.0,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 1.0,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 1,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.0,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.0,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 4,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 1.0,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 1.0,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 3,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 1.0,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.0,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 1.0,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.0,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 1.0,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 1.0,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 0.9,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 0.9,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 0.9,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 0.9,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.9,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.9,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.9,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.9,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.9,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 0.8,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 0.8,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.8,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.8,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 0.8,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.8,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.8,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.8,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.8,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 0.7,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 0.7,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.7,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.7,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.7,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.7,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 0.7,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 0.7,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.7,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.7,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.7,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.7,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.7,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.7,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.7,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 0.6,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.6,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.6,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.6,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 0.6,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.6,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.6,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.6,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.6,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.6,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.6,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 2,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.6,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 5,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.5,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 0.5,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 0.5,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 0.5,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 0.5,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.5,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.5,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.5,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.5,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.5,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.5,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.5,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.5,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 4,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.5,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 0.4,
+            "convenience": 4,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 0.4,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Стадион 36",
+            "rating": 0.4,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.4,
+            "convenience": 5,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.4,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 3,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.4,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.4,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 5,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.4,
+            "convenience": 3,
+            "security": 2,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.4,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Мне нравится дизайн этого здания."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 0.3,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Паутинник 32",
+            "rating": 0.3,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 5,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.3,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.3,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.3,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.3,
+            "convenience": 2,
+            "security": 4,
+            "functionality": 4,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.3,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.3,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.3,
+            "convenience": 5,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 0.3,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 0.3,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 0.3,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.3,
+            "convenience": 2,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.3,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.3,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.3,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 5,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.3,
+            "convenience": 5,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.3,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.3,
+            "convenience": 3,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.3,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.3,
+            "convenience": 4,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.3,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 2,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.2,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 2,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.2,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.2,
+            "convenience": 3,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 0.2,
+            "convenience": 1,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 0.2,
+            "convenience": 2,
+            "security": 2,
+            "functionality": 4,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.2,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание подходит для различных видов использования, таких как жилые комплексы, офисные здания или торговые центры."
+        },
+        {
+            "name": "Мост 1",
+            "rating": 0.2,
+            "convenience": 5,
+            "security": 4,
+            "functionality": 1,
+            "comment": "Это здание является примером функционального дизайна."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.2,
+            "convenience": 2,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание не имеет особых архитектурных особенностей."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.2,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 2,
+            "comment": "Это здание прекрасно вписывается в окружающий ландшафт."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.1,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 1,
+            "comment": "Это великолепное здание!"
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.1,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Мануфактура 19",
+            "rating": 0.1,
+            "convenience": 3,
+            "security": 5,
+            "functionality": 1,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 0.1,
+            "convenience": 1,
+            "security": 4,
+            "functionality": 3,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 0.1,
+            "convenience": 1,
+            "security": 5,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 0.1,
+            "convenience": 4,
+            "security": 3,
+            "functionality": 3,
+            "comment": "Это здание имеет стандартную конструкцию."
+        },
+        {
+            "name": "Аптека 98",
+            "rating": 0.1,
+            "convenience": 4,
+            "security": 5,
+            "functionality": 2,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Кошара 55",
+            "rating": 0.1,
+            "convenience": 2,
+            "security": 3,
+            "functionality": 5,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Верфь 100",
+            "rating": 0.1,
+            "convenience": 1,
+            "security": 3,
+            "functionality": 4,
+            "comment": "Это здание является примером функционального дизайна."
+        }
+    ],
+    "house_with_max_rating": [
+        {
+            "id": 409880,
+            "name": "Лосятник 47",
+            "street": "Спортивная улица 87",
+            "city": "Бильбао",
+            "zipcode": 340087,
+            "floors": 7,
+            "year": 1992,
+            "parking": true,
+            "prob_price": 690330690,
+            "views": 26945,
+            "rating": 5.0
+        },
+        {
+            "id": 312043,
+            "name": "Институт 80",
+            "street": "Краковская улица 24",
+            "city": "Барселона",
+            "zipcode": 515784,
+            "floors": 9,
+            "year": 1705,
+            "parking": true,
+            "prob_price": 279143437,
+            "views": 33430,
+            "rating": 5.0
+        },
+        {
+            "id": 272469,
+            "name": "Газопровод 27",
+            "street": "Школьная улица 92",
+            "city": "Осера",
+            "zipcode": 541725,
+            "floors": 3,
+            "year": 1878,
+            "parking": false,
+            "prob_price": 112386568,
+            "views": 12135,
+            "rating": 5.0
+        },
+        {
+            "id": 812327,
+            "name": "Башня 35",
+            "street": "Вроцлавская улица 63",
+            "city": "Сория",
+            "zipcode": 683581,
+            "floors": 7,
+            "year": 1979,
+            "parking": false,
+            "prob_price": 569453058,
+            "views": 50906,
+            "rating": 5.0
+        },
+        {
+            "id": 737317,
+            "name": "Мануфактура 19",
+            "street": "Спортивная улица 90",
+            "city": "Белград",
+            "zipcode": 816353,
+            "floors": 6,
+            "year": 1736,
+            "parking": true,
+            "prob_price": 500066252,
+            "views": 84580,
+            "rating": 5.0
+        },
+        {
+            "id": 676896,
+            "name": "Аптека 98",
+            "street": "Парковая улица 9",
+            "city": "Гранада",
+            "zipcode": 515913,
+            "floors": 3,
+            "year": 1759,
+            "parking": true,
+            "prob_price": 254140411,
+            "views": 64548,
+            "rating": 5.0
+        },
+        {
+            "id": 191172,
+            "name": "Причал 30",
+            "street": "Спортивная улица 24",
+            "city": "Киев",
+            "zipcode": 682741,
+            "floors": 2,
+            "year": 1975,
+            "parking": false,
+            "prob_price": 343216389,
+            "views": 24506,
+            "rating": 5.0
+        },
+        {
+            "id": 339989,
+            "name": "Электростанция 38",
+            "street": "Школьная улица 89",
+            "city": "Камбадос",
+            "zipcode": 416711,
+            "floors": 2,
+            "year": 1801,
+            "parking": true,
+            "prob_price": 131986775,
+            "views": 78425,
+            "rating": 5.0
+        },
+        {
+            "id": 535907,
+            "name": "Виадук 53",
+            "street": "Парковая улица 21",
+            "city": "Тудела",
+            "zipcode": 275003,
+            "floors": 7,
+            "year": 1973,
+            "parking": false,
+            "prob_price": 280099596,
+            "views": 5856,
+            "rating": 5.0
+        },
+        {
+            "id": 490172,
+            "name": "Архив 61",
+            "street": "Школьная улица 23",
+            "city": "Вильнюс",
+            "zipcode": 251467,
+            "floors": 8,
+            "year": 1841,
+            "parking": true,
+            "prob_price": 627274684,
+            "views": 46468,
+            "rating": 5.0
+        },
+        {
+            "id": 928151,
+            "name": "Кинотеатр 75",
+            "street": "Петербургская улица 26",
+            "city": "Эль-Пуэрто-де-Санта-Мария",
+            "zipcode": 441925,
+            "floors": 4,
+            "year": 1928,
+            "parking": false,
+            "prob_price": 321789390,
+            "views": 58282,
+            "rating": 5.0
+        },
+        {
+            "id": 853200,
+            "name": "Университет 47",
+            "street": "Спортивная улица 12",
+            "city": "Любляна",
+            "zipcode": 389704,
+            "floors": 9,
+            "year": 1794,
+            "parking": false,
+            "prob_price": 200870916,
+            "views": 50819,
+            "rating": 5.0
+        },
+        {
+            "id": 967992,
+            "name": "Стадион 36",
+            "street": "Зеленая улица 67",
+            "city": "Гранада",
+            "zipcode": 962148,
+            "floors": 3,
+            "year": 1760,
+            "parking": true,
+            "prob_price": 374800264,
+            "views": 29612,
+            "rating": 5.0
+        },
+        {
+            "id": 607791,
+            "name": "Аэропорт 65",
+            "street": "Варшавская улица 28",
+            "city": "Авилес",
+            "zipcode": 896014,
+            "floors": 3,
+            "year": 1730,
+            "parking": true,
+            "prob_price": 503149770,
+            "views": 18658,
+            "rating": 5.0
+        },
+        {
+            "id": 588801,
+            "name": "Коттедж 46",
+            "street": "Морская улица 77",
+            "city": "Касерес",
+            "zipcode": 936368,
+            "floors": 2,
+            "year": 1735,
+            "parking": false,
+            "prob_price": 28806978,
+            "views": 1160,
+            "rating": 5.0
+        },
+        {
+            "id": 941986,
+            "name": "Стадион 35",
+            "street": "Краковская улица 48",
+            "city": "Виго",
+            "zipcode": 579023,
+            "floors": 5,
+            "year": 1784,
+            "parking": false,
+            "prob_price": 802933741,
+            "views": 17406,
+            "rating": 5.0
+        },
+        {
+            "id": 944091,
+            "name": "Тоннель 76",
+            "street": "Лесная улица 49",
+            "city": "Эльче",
+            "zipcode": 179620,
+            "floors": 4,
+            "year": 1731,
+            "parking": true,
+            "prob_price": 424771017,
+            "views": 98393,
+            "rating": 5.0
+        },
+        {
+            "id": 638361,
+            "name": "Завод 16",
+            "street": "Краковская улица 52",
+            "city": "Эльче",
+            "zipcode": 587594,
+            "floors": 1,
+            "year": 1652,
+            "parking": false,
+            "prob_price": 841262802,
+            "views": 15135,
+            "rating": 5.0
+        },
+        {
+            "id": 416453,
+            "name": "Мануфактура 97",
+            "street": "Зимняя улица 14",
+            "city": "Сараево",
+            "zipcode": 697513,
+            "floors": 8,
+            "year": 1934,
+            "parking": true,
+            "prob_price": 367052429,
+            "views": 11750,
+            "rating": 5.0
+        },
+        {
+            "id": 447548,
+            "name": "Йодль 68",
+            "street": "Вроцлавская улица 37",
+            "city": "Монсон",
+            "zipcode": 541135,
+            "floors": 2,
+            "year": 1879,
+            "parking": false,
+            "prob_price": 789955592,
+            "views": 50166,
+            "rating": 5.0
+        }
+    ],
+    "review_by_year": [
+        {
+            "name": "Лосятник 47",
+            "rating": 0.1,
+            "convenience": 5,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Лосятник 47",
+            "rating": 0.3,
+            "convenience": 2,
+            "security": 1,
+            "functionality": 2,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Лосятник 47",
+            "rating": 0.3,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Лосятник 47",
+            "rating": 0.3,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Лосятник 47",
+            "rating": 0.5,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 5,
+            "comment": "Это здание очень функционально."
+        },
+        {
+            "name": "Лосятник 47",
+            "rating": 1.1,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 1,
+            "comment": "Это здание представляет собой типичный образец современной архитектуры."
+        },
+        {
+            "name": "Лосятник 47",
+            "rating": 1.2,
+            "convenience": 1,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание построено из стандартных строительных материалов."
+        },
+        {
+            "name": "Лосятник 47",
+            "rating": 1.4,
+            "convenience": 3,
+            "security": 1,
+            "functionality": 4,
+            "comment": "Это здание находится в хорошем состоянии и не требует значительных ремонтных работ."
+        },
+        {
+            "name": "Лосятник 47",
+            "rating": 2.0,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 3,
+            "comment": "У этого здания отличная архитектура."
+        },
+        {
+            "name": "Лосятник 47",
+            "rating": 2.4,
+            "convenience": 4,
+            "security": 1,
+            "functionality": 3,
+            "comment": "Это здание расположено в удобном месте, рядом с транспортными магистралями и инфраструктурой."
+        }
+    ]
+}
