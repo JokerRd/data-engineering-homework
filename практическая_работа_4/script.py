@@ -2,7 +2,7 @@ from file_utils import parse_pkl_file, save_to_json_file, parse_csv_file, parse_
 from sqlalchemy import create_engine
 from db_model import Base, House, ReviewHouse, Song, Phone
 from repository import HouseRepository, ReviewHouseRepository, SongRepository, PhoneRepository
-from model import StatInformation, FrequencyInformation, DataInformation, DataEncoder
+from model import StatInformation, FrequencyInformation, DataInformation, DataEncoder, PhoneStatInformation
 from utils import get_name_column, build_stat_information, cast_str_to_int, cast_str_to_float, \
     delete_key_value_by_key_list
 
@@ -90,7 +90,29 @@ def load_data_task_4(repository: PhoneRepository):
 
 def update_data_task_4(repository: PhoneRepository):
     update_data = parse_msgpack_file("task_4_var_51_update_data.msgpack")
-    print(update_data)
+    for update in update_data:
+        repository.update_data(update)
+
+
+def map_stat_phone_to_dict(tup):
+    phone_dict = {}
+    stat_information = PhoneStatInformation(count=tup[1], sum=tup[2], min=tup[3], max=tup[4], mean=tup[5])
+    phone_dict[tup[0]] = stat_information
+    return phone_dict
+
+
+def query_task_4(repository: PhoneRepository):
+    top_updated = repository.get_top(Phone.count_update.desc(), 10)
+    stat_by_price = repository.get_stat(Phone.from_city, Phone.price)
+    stat_by_price_dict_list = list(map(lambda item: map_stat_phone_to_dict(item), stat_by_price))
+    stat_by_quantity = repository.get_stat(Phone.from_city, Phone.quantity)
+    stat_by_quantity_dict_list = list(map(lambda item: map_stat_phone_to_dict(item), stat_by_quantity))
+    data_by_cities = repository.get_by_in_city(['Гранада', 'Варшава', 'Алькала-де-Энарес', 'Тбилиси'],
+                                               Phone.price.desc(), 10)
+    result = {'top_updated': top_updated, 'stat_by_price': stat_by_price_dict_list,
+              'stat_by_quantity': stat_by_quantity_dict_list, 'data_by_cities': data_by_cities}
+    save_to_json_file(result, DataEncoder, 'task_4_answer.json')
+    print(data_by_cities)
 
 
 house_repository, review_house_repository, song_repository, phone_repository = init_db()
@@ -101,10 +123,9 @@ house_repository, review_house_repository, song_repository, phone_repository = i
 # query_task_2(house_repository)
 
 # load_data_task_3(song_repository)
-#query_task_3(song_repository)
+# query_task_3(song_repository)
 
 
 #load_data_task_4(phone_repository)
-
-
-update_data_task_4(phone_repository)
+#update_data_task_4(phone_repository)
+query_task_4(phone_repository)

@@ -156,3 +156,68 @@ class PhoneRepository:
         with Session(self.engine) as session:
             session.add_all(phone_list)
             session.commit()
+
+    def get_by_in_city(self, cities: list[str], sort, limit):
+        with Session(self.engine) as session:
+            query = (select(Phone)
+                     .where(Phone.from_city.in_(cities))
+                     .order_by(sort)
+                     .limit(limit))
+            return list(session.scalars(query))
+
+    def get_top(self, sort, limit):
+        with Session(self.engine) as session:
+            query = (select(Phone)
+                     .order_by(sort)
+                     .limit(limit))
+            return list(session.scalars(query))
+
+    def get_stat(self, group_field, agg_field):
+        with Session(self.engine) as session:
+            query = (select(
+                group_field,
+                func.count(group_field).label('count'),
+                func.sum(agg_field).label("sum"),
+                func.min(agg_field).label('min'),
+                func.max(agg_field).label('max'),
+                func.avg(agg_field).label('mean'))
+                     .group_by(group_field))
+            return list(session.execute(query))
+
+    def update_data(self, update_param: dict):
+        method = update_param['method']
+        name = update_param['name']
+        param = update_param['param']
+        with Session(self.engine) as session:
+            try:
+                query = select(Phone).where(Phone.name == name)
+                phones = list(session.scalars(query))
+                for phone in phones:
+                    is_update_count = True
+                    if method == 'remove':
+                        session.delete(phone)
+                    elif method == 'price_percent':
+                        multiplier = float(param)
+                        phone.price = round(phone.price + phone.price * multiplier, 2)
+                    elif method == 'available':
+                        phone.is_available = bool(param)
+                    elif method == 'quantity_add':
+                        added_quantity = int(param)
+                        phone.quantity += added_quantity
+                    elif method == 'quantity_sub':
+                        subtracted_quantity = int(param)
+                        phone.quantity -= subtracted_quantity
+                    elif method == 'price_abs':
+                        new_price = int(param)
+                        phone.price = round(phone.price + new_price)
+                    else:
+                        is_update_count = False
+                        print("Такой операции не существует")
+                    if is_update_count:
+                        phone.count_update += 1
+                        print(f"К сущностям с именем {name} примена операция {method} с параметром {param}")
+                session.commit()
+            except:
+                session.rollback()
+                print(
+                    f"Операция {method} c параметром {param} не применена к сущностям с именем {param}, так как нарушает ограничения")

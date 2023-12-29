@@ -1,6 +1,6 @@
 from typing import Optional
 
-from sqlalchemy import String
+from sqlalchemy import String, CheckConstraint
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy import BIGINT, Integer, NVARCHAR, String, TIMESTAMP
 
@@ -95,9 +95,9 @@ class Phone(Base):
     from_city: Mapped[str]
     is_available: Mapped[bool]
     name: Mapped[str]
-    price: Mapped[int] = mapped_column(Integer())
-    quantity: Mapped[int] = mapped_column(Integer())
-    views: Mapped[int] = mapped_column(Integer())
+    price: Mapped[int] = mapped_column(Integer(), CheckConstraint("price >= 0"))
+    quantity: Mapped[int] = mapped_column(Integer(), CheckConstraint("quantity >= 0"))
+    views: Mapped[int] = mapped_column(Integer(), CheckConstraint("views >= 0"))
     count_update: Mapped[int] = mapped_column(Integer(), default=0)
 
     @staticmethod
@@ -108,6 +108,8 @@ class Phone(Base):
                 setattr(phone, 'from_city', dict_[key])
             elif key == 'isAvailable':
                 setattr(phone, 'is_available', dict_[key])
+            elif key == 'price':
+                setattr(phone, key, round(dict_[key]))
             else:
                 setattr(phone, key, dict_[key])
         return phone
@@ -116,3 +118,8 @@ class Phone(Base):
         return {'from_city': self.from_city, 'is_available': self.is_available,
                 'name': self.name, 'price': self.price, 'quantity': self.quantity,
                 'views': self.views, 'count_update': self.count_update}
+
+    def __repr__(self):
+        return (f'<Phone name={self.name}, from_city={self.from_city}, '
+                f'is_available={self.is_available}, price={self.price}, '
+                f'quantity={self.quantity}, views={self.views}, count_update={self.count_update}>')

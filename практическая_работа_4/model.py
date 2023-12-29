@@ -1,12 +1,20 @@
 import json
 from dataclasses import dataclass
 
-from практическая_работа_4.db_model import House, ReviewHouse, Song
+from практическая_работа_4.db_model import House, ReviewHouse, Song, Phone
 
 
 @dataclass
 class StatInformation:
     name_field: str
+    sum: int
+    mean: float
+    min: int
+    max: int
+
+@dataclass
+class PhoneStatInformation:
+    count: int
     sum: int
     mean: float
     min: int
@@ -34,6 +42,8 @@ class DataEncoder(json.JSONEncoder):
         if isinstance(obj, ReviewHouse):
             return obj.to_dict()
         if isinstance(obj, Song):
+            return obj.to_dict()
+        if isinstance(obj, Phone):
             return obj.to_dict()
         dict_obj = dict(vars(obj))
         new_dict = {}
