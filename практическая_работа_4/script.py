@@ -194,8 +194,8 @@ def query_task_5(club_repository, club_game_repository, player_repository):
 (house_repository, review_house_repository, song_repository,
  phone_repository, _club_repository, _club_game_repository, _player_repository) = init_db()
 
-load_data_task_1(task_1_house_repository)
-query_task_1(task_1_house_repository)
+load_data_task_1(house_repository)
+query_task_1(house_repository)
 
 load_data_task_2(review_house_repository)
 query_task_2(house_repository)
